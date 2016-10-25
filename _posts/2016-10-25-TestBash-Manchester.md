@@ -3,7 +3,7 @@ layout: post
 title: TestBash Manchester 2016
 ---
 
-#TestBash Manchester - On discovering a community around Testing
+# TestBash Manchester - On discovering a community around Testing
 
 [<img src="{{ site.baseurl }}/images/TestBash-Manchester-Logo-150x150.png" 
 alt="TestBash image" style="width: 150px;"/>]({{ site.baseurl }}/)
@@ -31,3 +31,5 @@ another post)
 So this is me now ready to make my own enthusiasm and adventures in testing a 
 little more public, I guess the next stop is to get a non-personal twitter 
 account to make following all these new speakers I encounter easier.
+
+I'm also a follower of the netsec and qualityassurance subreddits, both of which are always very interesting and helpful so I'll always be caught there too, but the speakers mentioned above should give me the beginnings of a regular set of blogs to check up on, as I've never been a habitual blog-reader (or writer) before.
