@@ -3,7 +3,7 @@ layout: post
 title: TestBash Manchester 2016
 ---
 
-# TestBash Manchester - On discovering a community around Testing
+## TestBash Manchester - On discovering a community around Testing
 
 [<img src="{{ site.baseurl }}/images/TestBash-Manchester-Logo-150x150.png" 
 alt="TestBash image" style="width: 150px;"/>]({{ site.baseurl }}/)
