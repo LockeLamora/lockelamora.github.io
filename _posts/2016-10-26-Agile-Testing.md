@@ -9,7 +9,7 @@ Agile is always a strange beast, and quite rightly so in my opinion. I don't thi
 
 All of these points were iteratively developed over one or more sprint retrospectives, and undoubtedly many will change, especially if new team members are added to the team or existing team members leave; that's always going to happen and since a lot of my own rules were made in response to how a specific team member or combination of team members works, this list will have to adapt, but again, that's agile!
 
-So onto my lessons learned and beast practices as they stand right now:
+So onto my lessons learned and best practices as they stand right now:
 
 ## 1: Definition of Done
 
@@ -44,4 +44,4 @@ This usually leads to a more secure system even if these elements would have bee
 
 This can be applied to any other type of testing; it's always better to let your team know in advance any potentially shaky areas your gut tells you about right away. It's always about teamwork and not trying to trip people up.
 
-So that's what I can think up so far, and again no doubt a lot more will be added as time goes on. I'd be interested in what everyone else thinks through twitter or email!
+So that's what I can think up so far, and again no doubt a lot more will be added as time goes on and one size certainly doesn't fit all when it comes to Agile. I'd be interested in what everyone else thinks through twitter or email!
