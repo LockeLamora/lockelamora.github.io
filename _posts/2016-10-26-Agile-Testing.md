@@ -22,7 +22,7 @@ Over time this definition has been refined to also include other points, includi
 
 ## 2: Tasks should never need to be moved "Left" (ie from QA to a developer)
 
-This was an unfortunate rule to implement but you can't always expect that the Devs you work with now will the ones you always worth with, so we keep this rule even though it hasn't needed to be enforced in quite a long time.
+This was an unfortunate rule to implement but you can't always expect that the Devs you work with now will the ones you always work with, so we keep this rule even though it hasn't needed to be enforced in quite a long time.
 
 The theory behind it is this: if a developer has checked their code, and the task is small enough as it should be during planning, then the happy path should always pass. Bugs may be raised against edge cases or complicated paths that the developers don't have time to check, and that's fine; in that instance we'll raise a bug and link it to the task, but the task itself can pass. This bug will be added immediately to the sprint and given no points so it must be assigned and worked on.
 
