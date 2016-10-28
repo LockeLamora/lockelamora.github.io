@@ -19,13 +19,15 @@ I visit the http content through the browser and see this:
 [<img src="{{ site.baseurl }}/images/violator/http_page.png"
 alt="Foghorn Leghorn on http pager" style="width: 500px;"/>]({{ site.baseurl }}/)
 
-Nikto then finds that it's running apache 2.4.7.
+Nikto then finds that it's running apache 2.4.7, but nothing exciting like a wordpress install.
 
 Attempt a scan with Zed Attack Proxy which finds nothing.
 
 Attempt a scan with dirbuster which finds nothing.
 
 Save the image of Foghorn Leghorn and run it through exiftool to see if there's any promising exif data but nothing there either.
+
+I also tried to set netcat listening on a few ports that I noticed through wireshark were maybe being probed by the VM but nothing there either.
 
 There's also nothing in the source except for that link to a Depeche Mode album named "Violator", so that's probably important and all the site is going to offer us, so the only other avenue for exploration that we have is the FTP port.
 
@@ -39,7 +41,7 @@ alt="etc passwd commands" style="width: 500px;"/>]({{ site.baseurl }}/)
 [<img src="{{ site.baseurl }}/images/violator/users.png"
 alt="list of users" style="width: 500px;"/>]({{ site.baseurl }}/)
 
-so we can see from here 4 interesting users: dg, mg, af and aw. From checking the linked wiki it looks like these are initials of Depeche Mode bandmembers. So let's use that same FTP exploit to grab their home directories and see what's in there.
+so we can see from here 4 interesting users: dg, mg, af and aw. From checking the linked wiki it looks like these are initials of Depeche Mode bandmembers. So let's use that same FTP exploit to grab their home directories and see what's in there, by just moving the entire directories to the web directory and viewing again through the browser.
 
 DG has some binaries relating to another FTP program, MG has nothing, AF has a program called "Minarke" which I google to find out is an enigma machine, and AW has a hint file telling us we have an enigma to solve, which seems to map back to that enigma machine, so I download the compressed file through the browser and save it for later.
 
@@ -47,17 +49,22 @@ So going back to the FTP before, but this time I try logging in as DG. It needs 
 
 I used a PHP tcp reverse webshell from the ever-helpful /usr/share/webshells dir in Kali and upload that with my FTP access to the /var/www/html directory, executing it through the web browser directly. I just set my port to 1234 and then ran nc -lvp 1234 and as soon as the browser hit the file it picked up the request, but of course it's run under the www-data user, so not terribly helpful, but it's easier to explore than through ftp.
 
-So what do we have? a shell with no permissions to transfer but can do some low-level executions, and an FTP access which can do no permissions but can transfer. BUT i found this [exploit](https://www.exploit-db.com/exploits/39166/) for the linux kernel that the box is running under, used the FTP account to upload that into /tmp as a .c file and used my reverse webshell under www-data to compile and execute it and BANG! root access!
+So what do we have? a shell with no permissions to transfer but can do some low-level executions, and an FTP access which can do no executions but can transfer. Usually useless BUT i found this [exploit](https://www.exploit-db.com/exploits/39166/) for the linux kernel that the box is running under (using **uname -a** to enumerate the kernel version) which makes them now a match made in heaven. I used the FTP account to upload that into /tmp as a .c file and used my reverse webshell under www-data to compile and execute it and BANG! root access!
 
 [<img src="{{ site.baseurl }}/images/violator/root.png"
 alt="running compiled binary gives root access" style="width: 500px;"/>]({{ site.baseurl }}/)
 
-so inside a hidden folder within the root user's directory is a .rar file, so i copy that to /var/www/html and download it through the browser (because I'm lazy). This contains artwork.jpg but is password-protected, so I compile a list of the same original tracklisting from the violator album, with variations on spacing and capitalisation and run it through johntheripper to try and get a working password:
+so inside a hidden folder within the root user's directory is a .rar file, so i copy that to /var/www/html and download it through the browser (because I'm lazy). This contains artwork.jpg but is password-protected, so I compile a list of the same original tracklisting from the violator album, with variations on spacing and capitalisation and run it through johntheripper (after using **rar2john crocs.rar > password.hashes**) to try and get a working password:
 
 [<img src="{{ site.baseurl }}/images/violator/crackingrar.png"
 alt="john the ripper cracking the rar" style="width: 500px;"/>]({{ site.baseurl }}/)
 
-and inside this is a long string of unintelligible text which needs to be decoded! so this brings us back to the enigma machine, which it turns out I couldn't figure out so i followed the instructions on this handy [website](http://www.dcode.fr/enigma-machine-cipher) as below, so we can see how the intimidating-looking instructions map to actions:
+and inside this is the artwork.jpg image which is the cover art for the violator album, i used exiftool again **exiftool -t artwork.jpeg** to view the exif data and there's a long string of unintelligible text which needs to be decoded!
+
+[<img src="{{ site.baseurl }}/images/violator/exif.png"
+alt="exif data from artwork" style="width: 500px;"/>]({{ site.baseurl }}/)
+
+so this brings us back to the enigma machine, which it turns out I couldn't figure out so i followed the instructions on this handy [website](http://www.dcode.fr/enigma-machine-cipher) as below, so we can see how the intimidating-looking instructions map to actions:
 
 [<img src="{{ site.baseurl }}/images/violator/enigma.png"
 alt="running the enigma decoder" style="width: 500px;"/>]({{ site.baseurl }}/)
