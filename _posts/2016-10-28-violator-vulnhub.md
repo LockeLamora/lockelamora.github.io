@@ -43,7 +43,7 @@ alt="list of users" style="width: 500px;"/>]({{ site.baseurl }}/)
 
 so we can see from here 4 interesting users: dg, mg, af and aw. From checking the linked wiki it looks like these are initials of Depeche Mode bandmembers. So let's use that same FTP exploit to grab their home directories and see what's in there, by just moving the entire directories to the web directory and viewing again through the browser.
 
-[<img src="{{ site.baseurl }}/images/violator/homedirs.jpeg"
+[<img src="{{ site.baseurl }}/images/violator/homedirs.png"
 alt="viewing home directories through browser" style="width: 500px;"/>]({{ site.baseurl }}/)
 
 DG has some binaries relating to another FTP program, MG has nothing, AF has a program called "Minarke" which I google to find out is an enigma machine, and AW has a hint file telling us we have an enigma to solve, which seems to map back to that enigma machine, so I download the compressed file through the browser and save it for later.
