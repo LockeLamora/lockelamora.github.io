@@ -32,7 +32,7 @@ So, for flag 1, the provided clue is:
 So we can tell the obvious clues here; somewhere around the home page area there will be a hex value that needs decoding. There's nothing obvious on the interface so we delve into the source and find this unfortunately true-to-life comment:
 
 [<img src="{{ site.baseurl }}/images/skydog/2_sourcecodeoldjs.png"
-alt="commented out source code telling the user to remove this file before prod" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="commented out source code telling the user to remove this file before prod" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 When we view this file, the first line contains a hex value. When we convert this it comes out as
 
@@ -70,7 +70,7 @@ I tried the "personnel" page, and get a warning message telling me that my works
 Within web-based applications, when we see the word "agent" the user-agent string comes to mind immediately, and a user being identified by their workstation gives us a target to hit; find the browser the site expects. I tried a few strings from popular browsers but nothing hit, so I got back to the only leaked information that may give us a clue about the inner workings of the site, that commented out .js file. Eventually we hit the jackpot with another comment:
 
 [<img src="{{ site.baseurl }}/images/skydog/5_sourcerevisited.png"
-alt="Source details a so-called temporary backdoor for an older browser" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="Source details a so-called temporary backdoor for an older browser" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 > maindev -  6/7/02 Adding temporary support for IE4 FBI Workstations
 
@@ -87,7 +87,7 @@ alt="changing firefox user agent to ie 4" style="width: 300px;"/>]({{ site.baseu
 Now when we visit the site we are granted access! It looks busy at first but in reality it's a single page, it does however contain a flag.
 
 [<img src="{{ site.baseurl }}/images/skydog/7_personnelsite.png"
-alt="FBI personnel page showing flag" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="FBI personnel page showing flag" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 >flag{14e10d570047667f904261e6d08f520f}
 
@@ -104,7 +104,7 @@ This is probably the one that stumped me the most. I went to the newevidence pag
 Eventually it worked, with his daughter's name "Grace" being the password.
 
 [<img src="{{ site.baseurl }}/images/skydog/8_newevidence.png"
-alt="New evidence page" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="New evidence page" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 Clicking on the 'evidence' link gives the next flag.
 
@@ -118,7 +118,7 @@ decrypts to "panam" (an airline company that the main character defrauded)
 Here we have an image showing a francophone area. Of course the main character was in France and arrested in Montpellier, but neither of these yield any new pages. There's no exif info on the picture, but after trying a few of the aforementioned words within steghide, panam works to extract it:
 
 [<img src="{{ site.baseurl }}/images/skydog/9_steganogaphy.png"
-alt="extracting text from image" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="extracting text from image" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 >flag{d1e5146b171928731385eb7ea38c37b8}
 
@@ -133,7 +133,7 @@ alt="extracting text from image" style="width: 300px;"/>]({{ site.baseurl }}/)
 At first I thought the quote given in this clue was a reference to the "Chase Manhattan Bank" and tried a few combinations of those words, but then it hit me that I'd recognised the character use the name "Barry Allen" thanks to the recent new series of "The Flash" on TV, after a lot of wonder what to do with that it turned out to be a login for the ssh we found earlier on port 22222:
 
 [<img src="{{ site.baseurl }}/images/skydog/10_sshsuccess.png"
-alt="connecting to port 22222 as Barry Allen" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="connecting to port 22222 as Barry Allen" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 The password was the clue from the last flag; iheartbrenda.
 
@@ -146,10 +146,10 @@ decrypts to "theflash" which we knew already, but might be a clue to the next on
 
 #### Flag #8 Franks Lost His Mind or Maybe it’s His Memory. He’s Locked Himself Inside the Building. Find the Code to Unlock the Door Before He Gets Himself Killed!
 
-So we find a system-security.data file, after treating it as a zip and transferring the file back to my own machine, I try to figure out what it is. Using "theflash" a a clue I thought it'd be something memory-related, at first I assumed it was a truecrypt file but it turned out to be a RAM image. I ran the imageinfo on volatility which shows that it's both a valid RAM image and running windows, I ran pslist to see a list of running processes and noticed notepad there. so I ran it with the notepad switch and got a result:
+So we find a system-security.data file, after treating it as a zip and transferring the file back to my own machine, I try to figure out what it is. Using "theflash" a a clue I thought it'd be something memory-related, at first I assumed it was a truecrypt file but it turned out to be a RAM image (after a lot of dead-ends!). I ran the imageinfo on volatility which shows that it's both a valid RAM image and running windows, I ran pslist to see a list of running processes and noticed notepad there. so I ran it with the notepad switch and got a result:
 
 [<img src="{{ site.baseurl }}/images/skydog/11_volatilitynotepad.png"
-alt="viewing contents of notepad" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="viewing contents of notepad" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 This turned out to be HEX which translates to a flag value:
 
