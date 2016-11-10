@@ -101,7 +101,7 @@ alt="FBI personnel page showing flag" style="width: 800px;"/>]({{ site.baseurl }
 
 This is probably the one that stumped me the most. I went to the newevidence page, but it requires authentication. The Personnel page logs in as Agent Hanratty, and IMDB tells me that character's first name was Carl, so given the username above we know the user will be carl.hanratty. The password is hinted to be personal info, but there's nothing on the page we just unlocked, so I turned to google, but that character was only based on a real person, so I watched the film and pretty much typed in anything he said that might help.
 
-Eventually it worked, with his daughter's name "Grace" being the password.
+Eventually it worked, with his daughter's name "Grace" being the password. I later searched for the name to see if I could've saved time watching the film, and it was indeed in the IMDB trivia section, but watching it helped me a lot more in a later flag.
 
 [<img src="{{ site.baseurl }}/images/skydog/8_newevidence.png"
 alt="New evidence page" style="width: 800px;"/>]({{ site.baseurl }}/)
@@ -126,7 +126,7 @@ alt="extracting text from image" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 >clue=iheartbrenda
 
-(I late viewed the pdf also linked to from that page, but it turned out to be a clue that the image contained info hidden by steganography which I'd also stumbled on)
+(I later viewed the pdf also linked to from that page, but it turned out to be a clue that the image contained info hidden by steganography which I'd also stumbled on)
 
 #### Flag #7 Frank Was Caught on Camera Cashing Checks and Yelling - I’m The Fastest Man Alive!
 
