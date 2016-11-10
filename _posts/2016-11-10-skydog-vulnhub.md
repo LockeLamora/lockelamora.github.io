@@ -130,7 +130,7 @@ alt="extracting text from image" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 #### Flag #7 Frank Was Caught on Camera Cashing Checks and Yelling - I’m The Fastest Man Alive!
 
-At first I thought the quote given in this clue was a reference to the "Chase Manhattan Bank" and tried a few combinations of those words, but then it hit me that I'd recognised the character use the name "Barry Allen" thanks to the recent new series of "The Flash" on TV, after a lot of wonder what to do with that it turned out to be a login for the ssh we found earlier on port 22222:
+At first I thought the quote given in this clue was a reference to the "Chase Manhattan Bank" (Chase = fast, cashing cheques = bank, I was so sure) and tried a few combinations of those words, but then it hit me that I'd recognised the character use the name "Barry Allen" thanks to the recent new series of "The Flash" on TV, after a lot of wonder what to do with that it turned out to be a login for the ssh we found earlier on port 22222:
 
 [<img src="{{ site.baseurl }}/images/skydog/10_sshsuccess.png"
 alt="connecting to port 22222 as Barry Allen" style="width: 800px;"/>]({{ site.baseurl }}/)
