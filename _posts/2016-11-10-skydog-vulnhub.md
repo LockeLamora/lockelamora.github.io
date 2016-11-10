@@ -45,7 +45,7 @@ which is an MD5 hash that says "nmap"
 So with nmap as the clue we revisit the ports given above. 22222 looks suspicious, and is open to SSH. Unfortunately we don't have any credentials for this yet, but it contains a flag and is something to remember for later:
 
 [<img src="{{ site.baseurl }}/images/skydog/3_sshonport22222.png"
-alt="ssh login prompt with flag" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="ssh login prompt with flag" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 > Flag{53c82eba31f6d416f331de9162ebe997}
 
@@ -57,7 +57,7 @@ decrypts as md5 to "encrypt"
 The word "encrypt" being given as a clue shows us that port 443 is about to come into play, but when we talk about intercepting traffic I fire up Wireshark and spot the following:
 
 [<img src="{{ site.baseurl }}/images/skydog/4_wireshark_sslhello.png"
-alt="wireshark prompt shows ssl cert has a flag" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="wireshark prompt shows ssl cert has a flag" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 >flag3{f82366a9ddc064585d54e3f78bde3221}
 
@@ -81,7 +81,7 @@ I've pasted this here as we also have a username that may help us in the future.
 So i set my Firefox browser to emulate IE4 with a googled UA string:
 
 [<img src="{{ site.baseurl }}/images/skydog/6_uachange.png"
-alt="changing firefox user agent to ie 4" style="width: 300px;"/>]({{ site.baseurl }}/)
+alt="changing firefox user agent to ie 4" style="width: 800px;"/>]({{ site.baseurl }}/)
 
 
 Now when we visit the site we are granted access! It looks busy at first but in reality it's a single page, it does however contain a flag.
