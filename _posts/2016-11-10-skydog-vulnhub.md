@@ -3,7 +3,7 @@ layout: post
 title: SkyDog: 2016 VM Walkthrough
 ---
 
-## for the [SkyDog: 2016](https://www.vulnhub.com/entry/skydog-2016-catch-me-if-you-can,166/) VM hosted on Vulnhub from James Bower.
+## for the [SkyDog - 2016](https://www.vulnhub.com/entry/skydog-2016-catch-me-if-you-can,166/) VM hosted on Vulnhub from James Bower.
 
 This was a fun VM, more of a game, but not always relaxing! There was a heavy dose of clues and puzzle-solving which I don't normally go in for, but they weren't too offputting.
 
