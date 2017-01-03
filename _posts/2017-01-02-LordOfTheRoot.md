@@ -41,10 +41,10 @@ so this looks like a url, we'll add that to the browser and it brings us up a lo
    style="width: 800px;"/>]({{ site.baseurl }}/)
 
 I used this to grab content from various tables, and this one was the jackpot:
-
->Database: Webapp
+~~~~
+Database: Webapp
 Table: Users
-[5 entries]
+5 entries]  
 +----+----------+------------------+
 | id | username | password         |
 +----+----------+------------------+
@@ -54,7 +54,7 @@ Table: Users
 | 4  | legolas  | AndMyBow         |
 | 5  | gimli    | AndMyAxe         |
 +----+----------+------------------+
-
+~~~~
 I tried smeagol just because it contained the word root, so not sure what the others do, but it logged in straight away:
 
 [<img src="{{ site.baseurl }}/images/LordOfTheRoot/5.png"
