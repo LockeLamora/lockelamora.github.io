@@ -25,7 +25,7 @@ And here we can see that port 1337 has opened. This turns out to be a http port,
 
 The source for robots.txt has this comment:
 
->!--THprM09ETTBOVEl4TUM5cGJtUmxlQzV3YUhBPSBDbG9zZXIh
+>THprM09ETTBOVEl4TUM5cGJtUmxlQzV3YUhBPSBDbG9zZXIh
 
 In base64 this decodes to:
 
