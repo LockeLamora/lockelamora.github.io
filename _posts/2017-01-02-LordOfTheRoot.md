@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lord Of The Root VM Walkthrough
+tags: vulnhub
 ---
 
 ## for the [Lord Of The Root](https://www.vulnhub.com/entry/lord-of-the-root-101,129/) VM hosted on Vulnhub from KookSec.

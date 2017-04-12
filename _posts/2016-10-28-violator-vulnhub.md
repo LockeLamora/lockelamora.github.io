@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Violator VM Walkthrough
+tags: vulnhub
 ---
 
 ## for the [Violator](https://www.vulnhub.com/entry/violator-1,153/) VM hosted on Vulnhub from knightmare.

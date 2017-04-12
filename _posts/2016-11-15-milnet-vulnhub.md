@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Milnet VM Walkthrough
+tags: vulnhub
 ---
 
 ## for the [Milnet1](https://www.vulnhub.com/entry/milnet-1,148/) VM hosted on Vulnhub from Warrior.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Wallaby's Nightmare VM Walkthrough
+tags: vulnhub
 ---
 
 ## for the [Wallaby's Nightmare](https://www.vulnhub.com/entry/wallabys-nightmare-v102,176/) VM hosted on Vulnhub from Waldo.

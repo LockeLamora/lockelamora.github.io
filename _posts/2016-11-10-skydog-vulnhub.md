@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SkyDog 2016 VM Walkthrough
+tags: vulnhub
 ---
 
 ## for the [SkyDog 2016](https://www.vulnhub.com/entry/skydog-2016-catch-me-if-you-can,166/) VM hosted on Vulnhub from James Bower.

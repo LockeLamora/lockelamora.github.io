@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Effective Agile Testing
+tags: [agile]
 ---
 
 ## On being an effective Agile tester - Lessons I have learned from QA within a scrum team
