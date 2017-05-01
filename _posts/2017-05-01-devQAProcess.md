@@ -5,7 +5,7 @@ tags: agile
 
 ---
 
-## How we refined our Developer/Tester relationship into an efficient process
+## Our current process, ensuring the Developers and Tester make the most of each other's time
 
 Over the course of many retrospectives, we have made bit-by-bit changes to our processes, chipping away at small problems as they appear until we've reached what I feel is a very good working relationship that makes everyone's lives easier. These are the main problems we wanted to solve or objectives we wanted to achieve:
 
