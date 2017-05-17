@@ -16,4 +16,4 @@ I also have an interest in Security testing and am currently teaching myself as 
 
 ### Contact me
 
-[alick_gardiner@hotmail.com](mailto:alick_gardiner@hotmail.com)
+[alick@alickgardiner.com](mailto:alick@alickgardiner.com)
