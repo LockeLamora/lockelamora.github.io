@@ -35,6 +35,6 @@ The next thing you see is the layout, which is slick to say the least:
  [<img src="{{ site.baseurl }}/images/hackthebox/htb1.png"
   style="width: 800px;"/>]({{ site.baseurl }}/images/hackthebox/htb1.png)
 
-* Meterpreter: I've never really used this. I've always done manual exploits on the vulnhub VMs, but i really didn't know a lot about meterpreter, and 90% of my knowledge around metasploit itself was actually using msfvenom to craft payloads for more handcrafted work. That's not to say there aren't buffer overflows and the like to get your hands dirty with, of course.
+* Meterpreter: I've never really used this. I've always done manual exploits on the vulnhub VMs, but I really didn't know a lot about meterpreter, and 90% of my knowledge around metasploit itself was actually using msfvenom to craft payloads for more handcrafted work. MY meterpreter knowledge has jumped forward in massive leaps! That's not to say there aren't buffer overflows and the like to get your hands dirty with, of course.
 
 All in all I've been on hackthebox for 2 weeks so far and it's amazing. I plan to support it financially for everything it offers, though this isn't mandatory by any means. I encourage everyone to give it a go.
