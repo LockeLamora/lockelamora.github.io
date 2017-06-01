@@ -18,6 +18,8 @@ The next thing you see is the layout, which is slick to say the least:
 
  There is a shoutbox seemingly constantly populated by mods and always active. There is also an accompanying IRC channel.
 
+ How it works is very like the OSCP labs; you are given VPN access and attack the IP addresses of the machines that are listed there.
+
  These are my main highlights on hackthebox:
 
  * Windows VMs: Due to licensing issues, these are blessedly rare for exploit practice, it's amazing how much my windows privilege escalation has started to improve, especially with how bad it was. There are so many here of so many flavours of Windows, it's worth donating to their funding just to keep that going.
