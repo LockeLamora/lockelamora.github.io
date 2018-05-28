@@ -20,6 +20,8 @@ As part of most testing activities you might take a lot of screenshots. When wor
 
  To prevent having to use pip (which is absolutely abysmal on OSX due to https/http issues) I've packaged it using pyinstaller into a self-contained executable. Not as good as properly packaging it up as an OSX app which could be run from outside the terminal but I'll make that my next step.
 
+ There's a niggly issue where the layout as defined in QTDesigner isn't always what the final layout looks like, but I think I'll just manually edit the layout XML for that.
+
 # FridayCityLogic
 
 I began playing the [Fantasy Formula 1 game](https://fantasy.formula1.com). There were many quality issues when it began! I wrote a script in ruby [available here](https://github.com/LockeLamora/FridayCityLogic) to make it easier for me to choose my own teams. The script name is named after my team name, which was just selected from a range of dictionary concatenation choices.
