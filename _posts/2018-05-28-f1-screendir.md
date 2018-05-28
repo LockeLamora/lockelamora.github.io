@@ -20,7 +20,7 @@ As part of most testing activities you might take a lot of screenshots. When wor
 
 # FridayCityLogic
 
-I began playing the [Fantasy Formula 1 game](https://fantasy.formula1.com). There were many quality issues when it began! I wrote a script [available here](https://github.com/LockeLamora/FridayCityLogic) to make it easier for me to choose my own teams. The script name is named after my team name, which was just selected from a range of dictionary concatenation choices.
+I began playing the [Fantasy Formula 1 game](https://fantasy.formula1.com). There were many quality issues when it began! I wrote a script in ruby [available here](https://github.com/LockeLamora/FridayCityLogic) to make it easier for me to choose my own teams. The script name is named after my team name, which was just selected from a range of dictionary concatenation choices.
 
 [<img src="{{ site.baseurl }}/images/misc/fcl.png"
  style="width: 800px;"/>]({{ site.baseurl }}/)
