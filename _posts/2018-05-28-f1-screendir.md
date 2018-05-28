@@ -28,7 +28,7 @@ As part of most testing activities you might take a lot of screenshots. When wor
 
  ```python setup.py py2app```
 
- Although this still needed to to put the ui file into a ui directory within resources, but it's a lot better than pyinstaller or cx_freeze which were just taking too long to hack around.
+ Although this still needed to to put the ui file into a ui directory within resources, and a lot of unused frameworks from QT4 need to be removed to reduce it from 70mb to 27, but it's a lot better than pyinstaller or cx_freeze which were just taking too long to hack around.
 
 
 # FridayCityLogic
