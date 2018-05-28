@@ -18,9 +18,7 @@ As part of most testing activities you might take a lot of screenshots. When wor
 
  It allows you to keep a GUI window open and navigate to directories, manually input paths or choose previous directories from a history (very useful when regularly switching) and set that as the location that OSX will save screenshots to.
 
- To prevent having to use pip (which is absolutely abysmal on OSX due to https/http issues) I've packaged it using pyinstaller into a self-contained executable. Not as good as properly packaging it up as an OSX app which could be run from outside the terminal but I'll make that my next step.
-
- There's a niggly issue where the layout as defined in QTDesigner isn't always what the final layout looks like, but I think I'll just manually edit the layout XML for that.
+ To prevent having to use pip (which is absolutely abysmal on OSX due to https/http issues) I've packaged it as an application which the user can put into their "Applications" directory. This executable can be downloaded directly using [This link](https://github.com/LockeLamora/screendir/blob/master/dist/screendir.zip?raw=true)
 
 # FridayCityLogic
 
