@@ -14,6 +14,8 @@ As part of most testing activities you might take a lot of screenshots. When wor
 
  Screendir is a project I created in Python using QT4, as I'd used wxPython around 8 years ago and I didn't like it, so I figured I'll try an alternative. The project is [available here](https://github.com/LockeLamora/screendir).
 
+ Fun fact: I finished this in one session and accidentally deleted the entire thing before committing (not a fun fact at the time), but pyqt is so intuitive that since I'd already learned the basics I redid it again in less than an hour.
+
  It allows you to keep a GUI window open and navigate to directories, manually input paths or choose previous directories from a history (very useful when regularly switching) and set that as the location that OSX will save screenshots to.
 
  To prevent having to use pip (which is absolutely abysmal on OSX due to https/http issues) I've packaged it using pyinstaller into a self-contained executable. Not as good as properly packaging it up as an OSX app which could be run from outside the terminal but I'll make that my next step.
