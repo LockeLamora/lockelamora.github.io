@@ -20,6 +20,17 @@ As part of most testing activities you might take a lot of screenshots. When wor
 
  To prevent having to use pip (which is absolutely abysmal on OSX due to https/http issues) I've packaged it as an application which the user can put into their "Applications" directory. This executable can be downloaded directly using [This link](https://github.com/LockeLamora/screendir/blob/master/dist/screendir.zip?raw=true)
 
+ To compile this to a binary I used py2app:
+
+ ```py2applet --make-setup screendir.py```
+
+ adding 'ui/window.ui' to the setup.py file and then
+
+ ```python setup.py py2app```
+
+ Although this still needed to to put the ui file into a ui directory within resources, but it's a lot better than pyinstaller or cx_freeze which were just taking too long to hack around.
+
+
 # FridayCityLogic
 
 I began playing the [Fantasy Formula 1 game](https://fantasy.formula1.com). Whilst waiting for the teething issues to resolve I got bored and wrote a script in ruby [available here](https://github.com/LockeLamora/FridayCityLogic) to make it easier for me to choose my own teams. The script name is named after my team name, which was just selected from a range of dictionary concatenation choices.
