@@ -33,7 +33,7 @@ So let's brute-force John.
 
 You can also see the wordpress version above too, which is useful for finding out what to do next.
 
-so we find out that the password for john is "enigma". We would log into this and manually do our webshell, but I've manually done this fake plugin step so many times I'm just going to do it through metasploit rather than repeat what's on a blog quite a few times already:
+so we find out that the password for john is "enigma". We would log into this and manually do our webshell, but I've manually done this fake plugin step so many times I'm just going to do it through metasploit rather than repeat what's on this blog quite a few times already:
 
 [<img src="{{ site.baseurl }}/images/bsidesvancouver/8.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/bsidesvancouver/8.png)
