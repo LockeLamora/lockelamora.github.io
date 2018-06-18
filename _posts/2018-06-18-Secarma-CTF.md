@@ -37,7 +37,11 @@ so although the service is basically just ping, it's not using ping at all, it's
 [<img src="{{ site.baseurl }}/images/pentestchallengeuk/5.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/pentestchallengeuk/5.png)
 
-it's giving us the help output of curl. So this is wide open for command injection; even though we can't simply chain more linux system commands (as symbols such as &%| are blacklisted) we can still use curl itself to give us access to a shell.
+it's giving us the help output of curl. So this is wide open for command injection; even though we can't simply chain more linux system commands (as symbols such as
+```
+&%|
+```
+are blacklisted) we can still use curl itself to give us access to a shell.
 
 First, we grab a reverse php webshell from somewhere (like /usr/share/webshells/php on kali, which is also available from pentestmonkey [HERE](http://pentestmonkey.net/tools/web-shells/php-reverse-shell]). After we replace LPORT and LHOST with our own local port number and IP address, we save it in our /var/www/html directory as a .txt file (So it can be read rather than executed). Then we start our local webserver with
 ```
