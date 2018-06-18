@@ -12,7 +12,7 @@ tags: vulnhub
 
 # Securi-Tay 2017
 
-Asin the last challenge, the first scan we will run is nmap
+As in the last challenge, the first scan we will run is nmap
 ```
 nmap 10.0.2.77 (or whatever ip)
 ```
