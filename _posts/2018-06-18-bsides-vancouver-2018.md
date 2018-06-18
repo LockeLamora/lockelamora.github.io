@@ -70,7 +70,7 @@ so let's go back to our nmap results:
 [<img src="{{ site.baseurl }}/images/bsidesvancouver/1.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/bsidesvancouver/1.png)
 
-port 22 lets us connect as an anonymous user and retrieve a list of users:
+port 21 (FTP) lets us connect as an anonymous user and retrieve a list of users:
 
 [<img src="{{ site.baseurl }}/images/bsidesvancouver/a.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/bsidesvancouver/a.png)
