@@ -39,7 +39,7 @@ so although the service is basically just ping, it's not using ping at all, it's
 
 it's giving us the help output of curl. So this is wide open for command injection; even though we can't simply chain more linux system commands (as symbols such as
 ```
-&%|
+&%|;
 ```
 are blacklisted) we can still use curl itself to give us access to a shell.
 
