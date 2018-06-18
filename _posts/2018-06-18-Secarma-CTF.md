@@ -94,7 +94,7 @@ now we have permissions to go into the /root folder and grab the flag:
 
 # Bsides Edinburgh 2017
 
-So now the next machine in this series, which is a little tougher. So as per usual, we'll run nmap, with nikto and dirb running in the backround once we see that port 80 is open:
+So now the next machine in this series, which is a little tougher. So as per usual, we'll run nmap, with nikto and dirb running in the background once we see that port 80 is open:
 
 [<img src="{{ site.baseurl }}/images/pentestchallengeuk/a.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/pentestchallengeuk/a.png)
