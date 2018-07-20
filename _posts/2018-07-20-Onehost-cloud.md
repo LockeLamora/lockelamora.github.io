@@ -10,7 +10,7 @@ tags: Misc
 
   I've been researching a VPS for my kali linux for a while. It's just something you need if you ever want a reverse shell or metasploit module to work in the real world, doing a vulnerable VM is fine but your LHOST and LPORT are useless once you try to use them over the internet. I spent a week or so researching that was out there and was initially resigned to an AWS instance when I noticed [onehost cloud](https://onehostcloud.hosting/). They offer a dedicated Kali instance which takes no time at all to set up, so here's the benefits and reasoning I've compiled for how and why I've been using it thus far:
 
-  ## Why shift from my powerful VM to onehostcloud?
+## Why shift from my powerful VM to onehostcloud?
 
   **It’s offloaded:** when I start even a vpn test such as for hackthebox.eu, I can do it confidently. Before, if it was 3pm I wouldn’t start anything too intensive because I’d only have to shut it down at 5pm to go home. Now I can set it off, shutdown my laptop at 5pm then resume the session at 7:30pm when I get home and view all the progress made when I’ve been stuck on a bus!
 
@@ -29,14 +29,14 @@ tags: Misc
   **External:** If you're within a local network on a trusted domain you can't be sure what's an issue and what isn't without being able to externally test, and sometimes the only way to do that is to bring your laptop home and try there. Now I can test internally on my local machine and externally using my VPS.
 
 
-  ## Privacy
+## Privacy
 
   Some people have different criteria to me when it comes to privacy. Officially the onehost cloud policy is that they'll not interfere in anything from either extreme end of the blackhat-whitehat spectrum, with the only exception being DDoS attacks since that affects their users. I'll never have to put this to the test since I don't do anything on the shadier end of things, but it's nice to know you're not under unscrupulous attention.
 
    This leads to a lot less red tape as I mentioned earlier; the mere mention of pentesting to AWS can trigger so many procedures and policies that you may as well be setting up and using a Commodore 64 by the end of it.
 
 
-   ## Performance and ease of use
+## Performance and ease of use
 
    I'm using the lowest paid tier of the kali options available, connecting using NoMachine was a bit jittery at first but after installing XFCE the thing's as silky smooth as a dolphin at a saturday night disco. It's as responsive and quick as using my own VM, which is rare for any remote desktop sessions.
 
@@ -46,7 +46,7 @@ tags: Misc
 
    To be honest it's somewhere I'd like to hang around when I've no technical issues to discuss, which will in turn be a benefit to newer clients whenever they need help I guess. That's the kind of community that will greatly benefit everyone and I look forward to seeing it grow as the service becomes more popular.
 
-   ## Conclusion
+## Conclusion
 
    Do I recommend it? well for my use-case (whitehat, with the odd foray when my curiosity is piqued by something) the answer is a definite "YES!". I've given the reasons why above and I think it's worth every penny.
 
