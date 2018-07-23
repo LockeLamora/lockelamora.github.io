@@ -8,7 +8,7 @@ tags: Misc
 [<img src="{{ site.baseurl }}/images/onehost/OneHost.png"
   style="width: 800px;"/>]({{site.baseurl }}/images/onehost/OneHost.png)
 
-  I've been researching a VPS for my kali linux for a while. It's just something you need if you ever want a reverse shell or metasploit module to work in the real world, doing a vulnerable VM is fine but your LHOST and LPORT are useless once you try to use them over the internet. I spent a week or so researching that was out there and was initially resigned to an AWS instance when I noticed [onehost cloud](https://onehostcloud.hosting/). They offer a dedicated Kali instance which takes no time at all to set up, so here's the benefits and reasoning I've compiled for how and why I've been using it thus far:
+  I've been researching a VPS for my kali linux for a while. It's just something you need if you ever want a reverse shell or metasploit module to work in the real world, doing a vulnerable VM is fine but your LHOST and LPORT are useless once you try to use them over the internet. I spent a week or so researching what was out there and was initially resigned to an AWS instance when I noticed [onehost cloud](https://onehostcloud.hosting/). They offer a dedicated Kali instance which takes no time at all to set up, so here's the benefits and reasoning I've compiled for how and why I've been using it thus far:
 
 ## Why shift from my powerful VM to onehostcloud?
 
