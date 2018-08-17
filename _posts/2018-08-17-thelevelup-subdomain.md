@@ -16,7 +16,7 @@ So let's make our first check; is it pointing to cloudfront via a CNAME entry? l
 [<img src="{{ site.baseurl }}/images/thelevelup/1.png"
  style="width: 800px;"/>]({{site.baseurl }}/images/thelevelup/1.png)
 
-success! Now here isn't the time to get complacent; Sometimes when you try to register the cloudfront domain it's still taken by the original country, so it's still abandoned but safely out of our grasp, so we go to AWS and see if we can get it up or if we get a message:
+success! Now here isn't the time to get complacent; Sometimes when you try to register the cloudfront domain it's still taken by the original company, so it's still abandoned but safely out of our grasp, so we go to AWS and see if we can get it up or if we get an error message:
 
 [<img src="{{ site.baseurl }}/images/thelevelup/2.png"
   style="width: 800px;"/>]({{site.baseurl }}/images/thelevelup/2.png)
