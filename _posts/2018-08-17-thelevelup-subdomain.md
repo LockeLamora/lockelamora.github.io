@@ -5,7 +5,7 @@ tags: Live
 ---
 ## Rescuing neglected subdomains and giving them a new home
 
-I was looking at  [Thelevelup's](https://www.thelevelup.com/security-response) responsible disclosure policy and it looks good. No unreasonable restrictions that only ties up whitehats and lets blackhats go free, and even a hall fo fame and a bit of swag as reward. yay! (FYI: they don't update the hall of fame and there's no swag, but for legal practice and something to pad out a blog with while we wait for bigger finds to be resolved by other companies it suits us)
+I was looking at  [Thelevelup's](https://www.thelevelup.com/security-response) responsible disclosure policy and it looks good. No unreasonable restrictions that only ties up whitehats and lets blackhats go free, and even a hall of fame and a bit of swag as reward. yay! (FYI: they don't update the hall of fame and there's no swag, but for legal practice and something to pad out a blog with while we wait for bigger finds to be resolved by other companies it suits us)
 
 I was cruisin' for a bruisin' around their subdomains and one in particular looked abandoned; facebook.thelevelup.com was pointing to a cloudfront default page.
 
