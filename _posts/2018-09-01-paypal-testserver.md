@@ -23,4 +23,4 @@ This gets to the crux of bug bounties; if I had more nefarious intentions, would
 
 Screenshots not attached since obviously they show sensitive systems.
 
-Addendum: to pay it forward I'm running classes at the workplace that allowed me to learn all of this over the past year. I've obtained a beefier VPS for my students and we're going through an exciting journey of classic penetration-testing and the tactics specific to bug-bounties, after the success of our [CTF](http://alickgardiner.com/Owasp-CTF/) there's a lot fo enthusiasm!!
+Addendum: to pay it forward I'm running classes at the workplace that allowed me to learn all of this over the past year. I've obtained a beefier VPS for my students and we're going through an exciting journey of classic penetration-testing and the tactics specific to bug-bounties, after the success of our [CTF](http://alickgardiner.com/Owasp-CTF/) there's a lot of enthusiasm!!
