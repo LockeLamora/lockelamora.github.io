@@ -22,3 +22,5 @@ I didn't do any further experimentation; just showing Paypal the URL and a scree
 This gets to the crux of bug bounties; if I had more nefarious intentions, would I make more money selling this find on the black market? No chance. Other programs allow me to test my scripts or do some boredom testing with the possibility of a t-shirt or hall of fame mention, but if you really value your assets and your reputation this is how you run a bounty program.
 
 Screenshots not attached since obviously they show sensitive systems.
+
+Addendum: to pay it forward I'm running classes at the workplace that allowed me to learn all of this over the past year. I've obtained a beefier VPS for my students and we're going through an exciting journey of classic penetration-testing and the tactics specific to bug-bounties, after the success of our [CTF](http://alickgardiner.com/Owasp-CTF/) there's a lot fo enthusiasm!!
