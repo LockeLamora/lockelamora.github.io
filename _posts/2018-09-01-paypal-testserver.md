@@ -5,7 +5,7 @@ tags: Live
 ---
 ## A week of extremes
 
-I've spent my week off work doing some bug bounties after the success from my previous post. I targeted a few sites using my VPS and a custom script I've written so it can mostly work unattended following the steps I'd normally take manually. Some are still waiting for responses or had multiple submissions which aren't all done yet. Some others in my queue, such as the gov.uk issues that I've found, are still vulnerable months later.
+I've spent my week off work doing some bug bounties after the success from my previous post. I targeted a few sites using my VPS and a custom script I've written so it can mostly work unattended following the steps I'd normally take manually. Some are still waiting for responses or had multiple submissions which aren't all done yet. Some others in my queue, such as the gov.uk issues that I've found (Which NCSC/GHHQ are helping me negotiate the inevitable red tape with), are still vulnerable months later.
 
 You can tell the differences between a company that takes security seriously and one that kinda pays lip service to it. Some bug bounties are so restrictive they're unrealistic and ignore the places where, as a QA tester, I'd instinctively look at as having more likelihood of being neglected or having a lower priority. These aren't worth testing; they clearly don't care about security but they can tell their clients about their active security stance.
 
