@@ -84,7 +84,7 @@ As a QA you tend to have to be sure of things and after a while you will be the 
 
 Luckily as QA our main focus is ascertaining risk, and that means such measures as requesting feature flags, so we can simply turn bad features off, so with good foresight even our worst mistakes can simply disappear! (this is an example of a feature I introduced at a team-retrospective that is now a company staple, refer earlier to what I mentioned about your big-impact retro feedback) But still, if the devs aren't sure on something they might pass it to you, and if you're not sure feel free to halt EVERYTHING. Because you WILL make mistakes. I have made plenty too!
 
-Even if a mistakes live, however, by this point in a project your devs are your best friends forever and you can just tell them you missed something and please can they rush a hotfix, obviously they'll say yes and it's done.
+Even if a mistake goes live, however, by this point in a project your devs are your best friends forever and you can just tell them you missed something and please can they rush a hotfix, obviously they'll say yes and it's done.
 
 Like every reputable company as a whole you should never be judged on a bug that went through, just on how you and your team handle it, and as someone who specialises in security that's an increasingly important rule nowadays.
 
