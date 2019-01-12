@@ -64,7 +64,7 @@ All of this was against the same amazing design. When everyone's so excited over
 
 # there aren't always right answers
 
-As I mentioned earlier, sometimes I just like to have a conversation with people. I'll ask them something about the job and I see them hesitate about what they should say, Hell I don't even know what you should say, when I'm finished interviewing you I'm going straight back to my desk to the job you're interviewing for; I have my own opinions on things too! I just want to chat a bit with a QA who might end up sitting beside me. I think my main advice here is by all means be negative, but not to be OVERLY negative.
+As I mentioned earlier, sometimes I just like to have a conversation with people. I'll ask them something about the job and I see them hesitate about what they should say, Hell I don't even know what you should say, I'm just having a conversation between two people in the same field, and when I'm finished interviewing you I'm going straight back to my desk to the job you're interviewing for. I just want to chat a bit with a QA who might end up sitting beside me. I think my main advice here is by all means be negative, but not to be OVERLY negative.
 
 It's ok to call out what you think your other companies have done wrong and what you'd rather do, but don't go all-out and say you hope your manager dies in a fire! Remember we love passion, and that means things that irk you too. I've hired people who within weeks have changed areas of the QA codebase I've built up over 6 years and I'm just looking at the changes wondering why the hell I never did that before.
 
