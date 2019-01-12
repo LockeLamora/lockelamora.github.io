@@ -19,7 +19,7 @@ But what I'll give here is my ideal lookouts during an interview:
 
 # make your interview a conversation
 
-Not every interviewer wants this, but I do. I want to sit and have a chat. I don't want to barrage you with questions only for you to give yes/no answers. Let's just talk about stuff, we love our work so let's just geek out, and that means everything. Let's talk about what makes up our worst days and the absolute gems. The browsers we hate, the languages we like, weird frameworks, the feedback we gave in a retro once that changed everything.
+Not every interviewer wants this, but I do. I want to sit and have a chat. I don't want to barrage you with questions only for you to give yes/no answers. Let's just talk about stuff, we love our work so let's just geek out, and that means everything. Let's talk about what makes up our worst days and the absolute gems. The browsers we hate, the languages we like, weird frameworks, the feedback we gave in a retro once that changed everything. Remember I have to work with you, and a good dynamic is amazing. Starting off your interview telling me everything that's wrong with our tech stack makes me just think "Can I work with this person every day?"
 
 # show yourself off, not just your career
 
