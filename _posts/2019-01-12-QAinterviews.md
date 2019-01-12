@@ -13,7 +13,9 @@ For over a decade my philosophy has been "Be lazy", a somewhat flippant way a pr
 
 What that does not mean is that these things aren't available; if you have a problem, need emotional support, need senior backup with an issue, need a pair of eyes over your code etc. that's always going to be given freely without judgement as you'll read.
 
-But what I'll give here is my ideal lookouts during an interview:
+# don't be overly-formal
+
+For example, it's great that your attention-to-detail is such that in your current role you do everything by planning test cases. But some of us in agile don't have the time or luxury-of-design to do that. It's 2019 now, part of being the person who solely owns QA for your team is that no-one is checking these things. If you can't be flexible and a sprint ends when you're halfway through test cases and the spec changes by the next sprint and you have to start over it's just not a pleasant glimpse into the future. If you envision your career as a box-ticker you'll find your options increasingly limited.
 
 # make your interview a conversation
 
