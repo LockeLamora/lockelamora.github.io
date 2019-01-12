@@ -75,6 +75,7 @@ It's ok to call out what you think your other companies have done wrong and what
 You've spent 4 months on a feature. you know everything there is to know about it because you've been to every meeting. You're faced with a powerful bit of functionality, and what you have to be able to do is put yourself in the mindset of a new client who has never seen or heard of this before and ask yourself
 
 -"how the hell do I know what to do??". Your documentation is also your product
+
 -"is this what I do?". Users will do weird things, if the team's answer is "that's not what you're meant to do and now you've crashed it" then the feature was not fit for release, as surely as if it crashed on launch for that user.
 
 In my job, yes when testing an API endpoint I can tap the guy next to me on the shoulder and ask "why didn't that work?" but what I should really do is log it as a bug, because a user can't tap that guy on the shoulder. I've done too much FOSS work to tolerate bad documentation for one minute longer!
