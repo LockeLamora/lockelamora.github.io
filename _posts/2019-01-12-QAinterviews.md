@@ -28,7 +28,9 @@ I've seen testers submit a CV with either manual-only experience or no QA experi
 I've turned down over 100 testers in a year, with 10+ years experience in favour of someone from customer support who wanted to be a tester so bad she read every QA book and blog she could get, her boyfriend got her QA books for her birthday which she read on a beach on holiday, She had a github account with some projects on. She couldn't sit down with an automation tester due to work deadlines, so she booked days off and sat with that team hassle-free. This is an extreme example (but a real one) to run counterpoint to what I hear in 90% of interviews:
 
 "I Love automation! it's my passion and I want to learn it!"
+
 "sweet! so what have you done toward that?"
+
 "Oh nothing yet, I don't get the time at work"
 
  please do invest in yourself in whatever time you can get. You might think you're a rank amateur after some udemy courses, random articles off google and a few scripts on github, but I'm looking at you with stars in my eyes.
