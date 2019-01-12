@@ -72,7 +72,7 @@ It's ok to call out what you think your other companies have done wrong and what
 
 You've spent 4 months on a feature. you know everything there is to know about it because you've been to every meeting. You're faced with a powerful bit of functionality, and what you have to be able to do is put yourself in the mindset of a new client who has never seen or heard of this before and ask yourself
 
--"how the hell do I know what to do??". Your documentation is also your product
+-"how the hell do I know what to do??". As well as having the role of the person who knows more about this feature than anyone else in the world you have to put yourself in the mindset to forget everything about this feature and behave as a first-time user, it's not always easy to do but that's why you're a great QA. 
 
 -"is this what I do?". Users will do weird things, if the team's answer is "that's not what you're meant to do and now you've crashed it" then the feature was not fit for release, as surely as if it crashed on launch for that user.
 
