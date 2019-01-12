@@ -52,7 +52,7 @@ As I mentioned earlier, I'm "Lazy" as a tester, in that I automated repetitive t
 
 I'm lucky in that my company has never had a bad Dev/QA dynamic, you're equal to a developer in all things, but let's face it, sometimes a new developer has just been hired from a very different place and you'd have to be able to nudge them toward the company culture, in some situations you just have to remember that your role is to tell a professional that they've made a mistake, and the way it should be is that's no problem because you've just saved them some embarrassment.
 
-You'll also have to be able to look at a perfectly functional, well designed piece of work and just say "no.. we're not doing that". A product manager relies on you to call things out or he wouldn't ask your opinion, it's symbiotic.
+You'll also have to be able to look at a perfectly functional, well-designed piece of work and just say "no.. we're not doing that". A product manager relies on you to call things out or he wouldn't ask your opinion, it's symbiotic.
 
 For example, a client does event 'X' and your project is to send them an email when that event completes. The developers have optimised it, designed it, the UX person has made a nice interface for who it goes to.
 
