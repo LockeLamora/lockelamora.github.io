@@ -51,6 +51,8 @@ It sucks, but this unfortunately does need to be said because I see it so much. 
 
 If you get through to the first interview due to buzzwords on your CV the best case is that we figure it out and halt everything, the worst case is that we sit you down in front of a framework that you have no idea how to use and this isn't a contract role anymore, this is it.
 
+The most common thing I see is "Languages: php, .net, java" etc. turns out they've tested applications written in these languages but can't write them. Oh no! Strangely I thought you wrote them! what a misunderstanding! No you knew how I'd interpret it. The rest of the amazing stuff I saw on your CV might be real, but at this point I'm too disheartened to care, you've misled me on purpose.
+
 
 # be assertive
 
