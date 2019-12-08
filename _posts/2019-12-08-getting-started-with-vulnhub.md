@@ -13,6 +13,8 @@ Vulnhub is a site to find practice server setups that you can practice with loca
 
 A virtual machine is simply like having a second computer hosted (virtually) on your own. When using vulnhub, we will be using two virtual machines; The Kali machine where you'll be attacking from, and the victim machine which you'll download from vulnhub. Because these are separate machines running on the same hardware, they'll all share your RAM and CPU so depending on your machine you might need to add or remove their allocation of RAM and close any intensive applications.
 
+After you've finished each machine it's good to have a look at a few walkthroughs to see if there were other ways of doing it, but when you're finally done it's best to delete both the machine and the file you downloaded to create it, simply because they can build up to take up so much hard drive space.
+
 In this post we will be looking at VirtualBox, a free program for running your virtual machines (or "VMs")
 
 ## Installing VirtualBox
@@ -51,7 +53,7 @@ Choose a virtual machine off vulnhub (if you don't care which you get, [THIS](ht
 
 Download the .ova and install it like you did with Kali; import the appliance and set it to the Nat Network we set up earlier.
 
-One thing to remember with a lot of vulnhub VMs is that they may error sometimes with some USB setting so I always disable it before I even start the thing. Click the entry for the new VM, click settings, then ports, then USB and disabled it:
+One thing to remember with a lot of vulnhub VMs is that they may error sometimes with some USB setting so I always disable it before I even start the thing. Click the entry for the new VM, click settings, then ports, then USB and disable it:
 
 [<img src="{{ site.baseurl }}/images/vulnhubsetup/3.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/vulnhubsetup/3.png)
