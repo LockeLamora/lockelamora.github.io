@@ -1,0 +1,68 @@
+---
+layout: post
+title: Toppo VM
+tags: vulnhub beginner-VMs
+
+---
+
+## for the [Toppo](https://www.vulnhub.com/entry/toppo-1,245/) VM hosted on Vulnhub from Hadi Mene.
+
+I've been looking at beginner VMs to suggest to people as a good starting point, so far I think Toppo is my favourite as it's a very linear basic process, and every tool and command used in it is one that'll be kept in the tester's arsenal and used frequently, so if you're reading this I'll make sure the commands are obvious and explained, note them down somewhere as they're all very generic and useful.
+
+First, we use nmap to see what ports are open:
+
+    nmap <IP>
+
+[<img src="{{ site.baseurl }}/images/toppo/1.png"
+ style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/1.png)
+
+Here we can see that port 80 is open, which is the typical website port. Here I use "dirb" to do a basic directory scan (Other scanners and wordlists are available, but this is good to demonstrate for this easy case):
+
+    dirb http://<IP>
+
+[<img src="{{ site.baseurl }}/images/toppo/2.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/2.png)    
+
+Here we see that there is an "admin" directory which uses directory listing, meaning that once you visit it in a browser, it will show you all the files it contains:
+
+[<img src="{{ site.baseurl }}/images/toppo/3.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/3.png)
+
+Here we see a notes text file, so let's just click it and see what's inside:
+
+[<img src="{{ site.baseurl }}/images/toppo/4.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/4.png)
+
+So it's a password! but to what? there were no login pages found by dirb, and the website's index page has no login link, but if we return to the nmap scan:
+
+[<img src="{{ site.baseurl }}/images/toppo/1.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/1.png)  
+
+We see again that there is an ssh port open, so let's try that. The password we have doesn't work with root, but given "ted" is included in the password we can try ted as a username too, and then we're in:
+
+    ssh ted@<IP>
+
+[<img src="{{ site.baseurl }}/images/toppo/5.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/5.png)  
+
+so now we're in as Ted, but we don't have access to /root where the flag is, so we need to escalate our privileges. Running this command will tell us what programs will run as if they are root (ie having the suid set)
+
+    find / -perm -u=s -type f 2>/dev/null
+
+in the list of results, python is listed. What this means is that everytime we run python, python will run as if the administrator is using it. so we tell python to open a shell for us, meaning that the shell will now be run as if it's by an administrator:    
+
+    /usr/bin/python2.7 -c 'import pty; pty.spawn("/bin/sh")'
+
+This is a very useful command to remember, on a normal machine it'll simply be shortened to:
+
+    python -c 'import pty; pty.spawn("/bin/sh")'
+
+and now when we run "id" we can see that we are indeed the root user:
+
+[<img src="{{ site.baseurl }}/images/toppo/6.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/6.png)  
+
+so let's test it out by navigating to /root and opening the flag text file:
+
+[<img src="{{ site.baseurl }}/images/toppo/7.png"
+     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/7.png)          
