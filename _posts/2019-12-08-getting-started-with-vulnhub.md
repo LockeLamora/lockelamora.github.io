@@ -1,68 +1,77 @@
 ---
 layout: post
-title: Toppo VM
+title: Getting started with vulnhub
 tags: vulnhub beginner-VMs
 
 ---
 
-## for the [Toppo](https://www.vulnhub.com/entry/toppo-1,245/) VM hosted on Vulnhub from Hadi Mene.
+## Getting Setup with [vulnhub](https://www.vulnhub.com/) using VirtualBox
 
-I've been looking at beginner VMs to suggest to people as a good starting point, so far I think Toppo is my favourite as it's a very linear basic process, and every tool and command used in it is one that'll be kept in the tester's arsenal and used frequently, so if you're reading this I'll make sure the commands are obvious and explained, note them down somewhere as they're all very generic and useful.
+Vulnhub is a site to find practice server setups that you can practice with locally. These are usually marked with a difficulty level, most have walkthroughs if you get stuck and they're completely legal. Because Windows virtual machines would require licenses, Linux hosts are mainly what you'll find, but they're the dominant presence on the internet so that's completely fine.
 
-First, we use nmap to see what ports are open:
+## What are Virtual machines?
 
-    nmap <IP>
+A virtual machine is simply like having a second computer hosted (virtually) on your own. When using vulnhub, we will be using two virtual machines; The Kali machine where you'll be attacking from, and the victim machine which you'll download from vulnhub. Because these are separate machines running on the same hardware, they'll all share your RAM and CPU so depending on your machine you might need to add or remove their allocation of RAM and close any intensive applications.
 
-[<img src="{{ site.baseurl }}/images/toppo/1.png"
- style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/1.png)
+In this post we will be looking at VirtualBox, a free program for running your virtual machines (or "VMs")
 
-Here we can see that port 80 is open, which is the typical website port. Here I use "dirb" to do a basic directory scan (Other scanners and wordlists are available, but this is good to demonstrate for this easy case):
+## Installing VirtualBox
 
-    dirb http://<IP>
+Ok so let's get set up. Before we do anything on vulnhub itself, we'll install VirtualBox. You can find the downloads page [HERE](https://www.virtualbox.org/wiki/Downloads), simply choose the OSX or Windows install depending on your OS, then install as normal.
 
-[<img src="{{ site.baseurl }}/images/toppo/2.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/2.png)    
+### Setting up a NAT Network
 
-Here we see that there is an "admin" directory which uses directory listing, meaning that once you visit it in a browser, it will show you all the files it contains:
+Because we're about to host a vulnerable machine that is out of date and misconfigured (ie completely insecure) it's bad practice to have it visible to the outside internet, if you want to practice at work over a lunch hour then it'd almost certainly violate any security policies in place. So what we'll do is make a little internal network using VirtualBox so the machines can see the internet and each other but are safely hidden away from the outside world.
 
-[<img src="{{ site.baseurl }}/images/toppo/3.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/3.png)
+Within Virtual, go to the preferences menu and select "Network". Click the green plus icon (All of these screenshots are from a mac but they should be close enough for Windows users) and give it a name and make a note of the number in the box underneath (This is the range of IP addresses your virtual machines will be given):
 
-Here we see a notes text file, so let's just click it and see what's inside:
+[<img src="{{ site.baseurl }}/images/vulnhubsetup/1.png"
+ style="width: 800px;"/>]({{ site.baseurl }}/images/vulnhubsetup/1.png)
 
-[<img src="{{ site.baseurl }}/images/toppo/4.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/4.png)
+### Installing Kali
+The next thing we'll do is install Kali Linux. Kali is derived from Debian (A flavour of Linux) and is essentially an operating system that comes bundled with a wide variety of the tools and wordlists we'll be using for our hacking.
 
-So it's a password! but to what? there were no login pages found by dirb, and the website's index page has no login link, but if we return to the nmap scan:
+All of these are available separately but it's convenient having them all in setup already one place.
 
-[<img src="{{ site.baseurl }}/images/toppo/1.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/1.png)  
+Click [HERE](https://images.offensive-security.com/virtual-images/kali-linux-2019.4-vbox-amd64.ova) to download the Kali image. Once downloaded, Either double click on it to open with VirtualBox or open from within VirtualBox by using file/import appliance.
 
-We see again that there is an ssh port open, so let's try that. The password we have doesn't work with root, but given "ted" is included in the password we can try ted as a username too, and then we're in:
+Once it has finished importing, click on the Kali entry on the left hand side, click on settings, then the network tab of VirtualBox and assign its network to the NAT Network you set up earlier which should now be present on the dropdown options:
 
-    ssh ted@<IP>
+[<img src="{{ site.baseurl }}/images/vulnhubsetup/2.png"
+ style="width: 800px;"/>]({{ site.baseurl }}/images/vulnhubsetup/2.png)
 
-[<img src="{{ site.baseurl }}/images/toppo/5.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/5.png)  
+ Now click the entry on the left hand side for Kali and click "start". Kali will boot up and you'll watch it loads in a window like a normal computer. the username is **root** and the password is **toor**.
 
-so now we're in as Ted, but we don't have access to /root where the flag is, so we need to escalate our privileges. Running this command will tell us what programs will run as if they are root (ie having the suid set)
+ Now's a good time to update your Kali since it may be a bit behind. You can enter this into a command terminal:
 
-    find / -perm -u=s -type f 2>/dev/null
+    apt-get update && apt-get upgrade
 
-in the list of results, python is listed. What this means is that everytime we run python, python will run as if the administrator is using it. so we tell python to open a shell for us, meaning that the shell will now be run as if it's by an administrator:    
+### Installing your Vulnhub VM
+Choose a virtual machine off vulnhub (if you don't care which you get, my next post will be on [This machine](https://www.vulnhub.com/entry/hacknos-os-hax,389/))
 
-    /usr/bin/python2.7 -c 'import pty; pty.spawn("/bin/sh")'
+Download the .ova and install it like you did with Kali; import the appliance and set it to the Nat Network we set up earlier.
 
-This is a very useful command to remember, on a normal machine it'll simply be shortened to:
+One thing to remember with a lot of vulnhub VMs is that they may error sometimes with some USB setting so I always disable it before I even start the thing. Click the entry for the new VM, click settings, then ports, then USB and disabled it:
 
-    python -c 'import pty; pty.spawn("/bin/sh")'
+[<img src="{{ site.baseurl }}/images/vulnhubsetup/3.png"
+ style="width: 800px;"/>]({{ site.baseurl }}/images/vulnhubsetup/3.png)
 
-and now when we run "id" we can see that we are indeed the root user:
+### Finding the Vulnhub VM on your NAT network
 
-[<img src="{{ site.baseurl }}/images/toppo/6.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/6.png)  
+Some machines are very nice and tell you their IP address when they boot up, but most won't, so we have to find it ourselves.
 
-so let's test it out by navigating to /root and opening the flag text file:
+In a kali terminal, type:
 
-[<img src="{{ site.baseurl }}/images/toppo/7.png"
-     style="width: 800px;"/>]({{ site.baseurl }}/images/toppo/7.png)          
+    ifconfig
+
+This will tell you Kali's IP address. (depending on the address you noted earlier when creating the NAT Network it might start with 10.0.2.x)
+
+Next we run an nmap scan to give us the IP of every machine of our network, which will be pretty quick as we only have Kali and the Vulnhub VM on it.
+
+    nmap 10.0.2.0/24
+
+(Or whatever the number was that you recorded earlier)
+
+There may be some junk in there, but the entry we're looking for will usually end in **Oracle VirtualBox virtual NIC** and has the IP address that isn't Kali's.
+
+After that, if port 80 is open then open your browser and type in the machine's IP address into your address bar and you're not at the starting point to tackling the machine.
