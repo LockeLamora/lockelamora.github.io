@@ -31,7 +31,7 @@ Within VirtualBox, go to the preferences menu and select "Network". Click the gr
 ### Installing Kali
 The next thing we'll do is install Kali Linux. Kali is derived from Debian (A flavour of Linux) and is essentially an operating system that comes bundled with a wide variety of the tools and wordlists we'll be using for our hacking.
 
-All of these are available separately but it's convenient having them all in setup already one place.
+All of these are available separately but it's convenient having them all setup already in one place.
 
 Click [HERE](https://images.offensive-security.com/virtual-images/kali-linux-2019.4-vbox-amd64.ova) to download the Kali image. Once downloaded, Either double click on it to open with VirtualBox or open from within VirtualBox by using file/import appliance.
 
