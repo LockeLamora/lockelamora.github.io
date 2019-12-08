@@ -47,7 +47,7 @@ Once it has finished importing, click on the Kali entry on the left hand side, c
     apt-get update && apt-get upgrade
 
 ### Installing your Vulnhub VM
-Choose a virtual machine off vulnhub (if you don't care which you get, my next post will be on [This machine](https://www.vulnhub.com/entry/hacknos-os-hax,389/))
+Choose a virtual machine off vulnhub (if you don't care which you get, [THIS](http://alickgardiner.com/toppo/) post contains a walkthrough for a beginner-friendly machine, the link to download which is at the top of the page)
 
 Download the .ova and install it like you did with Kali; import the appliance and set it to the Nat Network we set up earlier.
 
