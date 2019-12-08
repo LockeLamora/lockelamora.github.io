@@ -23,7 +23,7 @@ Ok so let's get set up. Before we do anything on vulnhub itself, we'll install V
 
 Because we're about to host a vulnerable machine that is out of date and misconfigured (ie completely insecure) it's bad practice to have it visible to the outside internet, if you want to practice at work over a lunch hour then it'd almost certainly violate any security policies in place. So what we'll do is make a little internal network using VirtualBox so the machines can see the internet and each other but are safely hidden away from the outside world.
 
-Within Virtual, go to the preferences menu and select "Network". Click the green plus icon (All of these screenshots are from a mac but they should be close enough for Windows users) and give it a name and make a note of the number in the box underneath (This is the range of IP addresses your virtual machines will be given):
+Within VirtualBox, go to the preferences menu and select "Network". Click the green plus icon (All of these screenshots are from a mac but they should be close enough for Windows users) and give it a name and make a note of the number in the box underneath (This is the range of IP addresses your virtual machines will be given):
 
 [<img src="{{ site.baseurl }}/images/vulnhubsetup/1.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/vulnhubsetup/1.png)
