@@ -84,7 +84,8 @@ and we can navigate to our first user flag:
 [<img src="{{ site.baseurl }}/images/dusk/10.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/10.png)
 
- ## Our first user pivot
+***
+<h3>Our first user pivot</h3>
 
 When we run:
 ```
@@ -107,6 +108,8 @@ And now we have our dusk user environment:
 [<img src="{{ site.baseurl }}/images/dusk/12.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/12.png)
 
- ## Root privilege escalation
+ ***
+
+<h3>Root privilege escalation</h3>
 
  In progress!
