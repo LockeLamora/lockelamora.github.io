@@ -1,4 +1,3 @@
-privileges
 layout: post
 title: Sunset Nightfall Vulnhub VM walkthrough
 tags: vulnhub
