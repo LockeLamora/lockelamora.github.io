@@ -11,9 +11,6 @@ A short and fun machine showing off samba sharing, suid abuse, directory scannin
 
 ***
 
-### Enumeration
-
-
 [<img src="{{ site.baseurl }}/images/dawn/1.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/dawn/1.png)
 
@@ -52,7 +49,7 @@ and notice that there's a recurring job that tries to call a file within ITDEPT,
   style="width: 800px;"/>]({{ site.baseurl }}/images/dawn/6.png)
 
 [<img src="{{ site.baseurl }}/images/dawn/8.png"
-   style="width: 800px;"/>]({{ site.baseurl }}/images/dawn/8.png)   
+   style="width: 200px;"/>]({{ site.baseurl }}/images/dawn/8.png)   
 
 and then it's a case of setting up a netcat listener on our kali machine and waiting for the server to execute the script and fire off an incoming connection to us:
 
@@ -67,7 +64,7 @@ So now we have the www-data user, let's see if they can do anything:
  sudo! well how careless. Let's call it and invoke a shell as root:
 
 [<img src="{{ site.baseurl }}/images/dawn/11.png"
-  style="width: 800px;"/>]({{ site.baseurl }}/images/dawn/11.png)    
+  style="width: 300px;"/>]({{ site.baseurl }}/images/dawn/11.png)    
 
 and view the root flag:
 
