@@ -5,7 +5,7 @@ tags: vulnhub
 
 ---
 
-## A review of the [Sunset:Dusk](https://www.vulnhub.com/entry/sunset-dusk,404/) VM from Vulnhub
+## A Walkthrough of the [Sunset:Dusk](https://www.vulnhub.com/entry/sunset-dusk,404/) VM from Vulnhub
 
 This machine is full of rabbit holes if you spend to much time in one area, so for that reason alone it's a great exercise in re-evaluating your progress occasionally. As always, we begin with our nmap scan to view available ports:
 

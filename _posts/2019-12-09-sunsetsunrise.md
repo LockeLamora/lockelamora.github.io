@@ -5,7 +5,7 @@ tags: vulnhub
 
 ---
 
-## A review of the [Sunrise](https://www.vulnhub.com/entry/sunset-sunrise,406/) VM from Vulnhub
+## A Walkthrough of the [Sunset:Sunrise](https://www.vulnhub.com/entry/sunset-sunrise,406/) VM from Vulnhub
 
 First I'll give a warning that I think this VM is maybe at the higher-end of being a beginner VM. It's a great machine and everything in it will be useful to take note of for the future, but don't feel bad if you need to consult a walkthrough for this one.
 
