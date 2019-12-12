@@ -7,8 +7,6 @@ tags: vulnhub
 
 ## A review of the [Sunset:Dusk](https://www.vulnhub.com/entry/sunset-dusk,404/) VM from Vulnhub
 
-### Note: This walkthrough gets user-level, then a privilege escalation, root still in progress
-
 This machine is full of rabbit holes if you spend to much time in one area, so for that reason alone it's a great exercise in re-evaluating your progress occasionally. As always, we begin with our nmap scan to view available ports:
 
 
@@ -18,9 +16,9 @@ This machine is full of rabbit holes if you spend to much time in one area, so f
 There are quite a few possibilities open here and some do leak information, but nothing we don't find out later (For example, the SMTP port can be used to verify users present on the system)
 
 [<img src="{{ site.baseurl }}/images/dusk/3.png"
- style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/3.png)
+ style="width: 100;"/>]({{ site.baseurl }}/images/dusk/3.png)
 
-Port 8 is a default apache install, so we move next to port 8080 which promises so much command injection of path traversal, but is really a simple php script given the contents of its home directory, but we'll still use it later:
+Port 80 is a default apache install, so we move next to port 8080 which promises so much command injection of path traversal, but is really a simple php script given the contents of its home directory, but we'll still use it later:
 
 [<img src="{{ site.baseurl }}/images/dusk/2.png"
  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/2.png)
@@ -55,7 +53,7 @@ select "<? php system($_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
 and we can now revisit the listing on port 8080 to see if it has saved:
 
 [<img src="{{ site.baseurl }}/images/dusk/8.png"
- style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/8.png)     
+ style="width: 100px;"/>]({{ site.baseurl }}/images/dusk/8.png)     
 
 give it a quick check:
 
@@ -112,4 +110,15 @@ And now we have our dusk user environment:
 
 <h3>Root privilege escalation</h3>
 
- In progress!
+From the screenshot above, we see that the dusk user has access to the Docker group. Docker has a few well-documented privilege escalation routes, I used the example [HERE](https://www.hackingarticles.in/docker-privilege-escalation/) to create my command:
+
+```
+docker run -v /root:/mnt -it alpine
+```
+Which will run docker and mount the local root directory which contains our flag:
+
+[<img src="{{ site.baseurl }}/images/dusk/13.png"
+ style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/13.png)
+
+[<img src="{{ site.baseurl }}/images/dusk/14.png"
+  style="width: 800px;"/>]({{ site.baseurl }}/images/dusk/14.png)
