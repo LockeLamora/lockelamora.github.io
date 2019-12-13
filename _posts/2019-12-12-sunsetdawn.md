@@ -45,6 +45,9 @@ and notice that there's a recurring job that tries to call a file within ITDEPT,
 
  I just wrote a simple netcat call (the & backgrounds it as the connection dies straight away afterwards otherwise) and then transferred it using the local filemanager which sees the samba network:
 
+ [<img src="{{ site.baseurl }}/images/dawn/7.png"
+  style="width: 800px;"/>]({{ site.baseurl }}/images/dawn/7.png)
+
  [<img src="{{ site.baseurl }}/images/dawn/6.png"
   style="width: 800px;"/>]({{ site.baseurl }}/images/dawn/6.png)
 
