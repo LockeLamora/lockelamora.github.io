@@ -76,6 +76,8 @@ The mainboard itself then was equally as bad as the audio board. The Capacitors 
 [<img src="{{ site.baseurl }}/images/gamegearrecap/9.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/9.jpg)
 
+And now after a makeover to give it cute SMDs:
+
 [<img src="{{ site.baseurl }}/images/gamegearrecap/10.jpg"
             style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/10.jpg)
 
