@@ -7,7 +7,7 @@ tags: retro
 
 ## Resurrecting a dead game gear
 
-Game Gears notoriously have issues with capacitors; The accepted rule is that if you've got a game gear which hasn't been recapped, then it's going to need it ASAP and without it will eventually die. I decided to recap my current one after successfully recapping my C64, as the current one is currently not working (it has a common feature of original caps which is no sound/video and it powers off within a second of turning it on).
+Game Gears notoriously have issues with capacitors; The accepted rule is that if you've got a game gear which hasn't been recapped, then it's going to need it ASAP and without it will eventually die. I decided to recap my current one after successfully recapping my C64, as it's not working anyway (it has a common feature of original caps which is no sound/video and it powers off within a second of turning it on).
 
 I'm probably going to sell it, but selling a working recapped Game gear is going to return many times back what selling a broken one would fetch, so for the small cost of the capacitors it was worth a shot.
 
@@ -33,7 +33,7 @@ After an hour or so I'm now an expert at holding a soldering iron in one hand, t
 
 Practice out of the way, I opened up the Game Gear itself to inspect what was currently going on in there. The results were not pretty at all.
 
-All of the capacitors on the main board and audio board had leaked, corroded their own solder joins to the point of non-existence and were affecting surrounded components, at that point I'd changed this from a repair job to a hobby task because the entire thing looked and smelled banjaxed beyond redemption.
+All of the capacitors on the main board and audio board had leaked, corroded their own solder joins to the point of non-existence and were affecting surrounding components, at that point I'd changed this from a repair job to a hobby task because the entire thing looked and smelled banjaxed beyond redemption.
 
 Here is a layout of both sides of the console:
 
