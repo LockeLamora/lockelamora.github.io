@@ -88,6 +88,6 @@ After putting all the bits back together and loading it up with a beastly 6 AA b
 [<img src="{{ site.baseurl }}/images/gamegearrecap/11.jpg"
             style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/11.jpg)
 
-After trying it out for a bit the only additional work that was needed was that I noticed the buttons weren't very responsive. Opening it back up and cleaning the traces with isopropyl fixed the '1' button which was barely working, but for the D-Pad I needed a full new set of conductive rubbers, and coincidentally the place I found to source these in the uk is just up the road from me.
+After trying it out for a bit the only additional work that was needed was that I noticed the buttons weren't very responsive. Opening it back up and cleaning the traces with isopropyl fixed the '1' button which was barely working, but for the D-Pad I needed a full new set of conductive rubbers.
 
 I think my timing couldn't have left it any more to chance. The board of this unit was already starting to suffer from the effects of leaky capacitors and this was probably within a rapidly-narrowing window of opportunity for repair, but it's all good now and a fun activity.            
