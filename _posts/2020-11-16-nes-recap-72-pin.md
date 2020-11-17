@@ -63,13 +63,13 @@ So here we are with the RF/Power module removed, which we can open up and work w
 [<img src="{{ site.baseurl }}/images/nes-recap/10.jpg"
                         style="width: 800px;"/>]({{ site.baseurl }}/images/nes-recap/10.jpg)              
 
-Looking at this from this open angle we can see how much obstacles and awkward angles we would've encountered if we'd tried the lazy way of working through the larger capacitor's hole.
+Looking at this from this open angle we can see a few obstacles and awkward angles we would've encountered if we'd tried the lazy way of working through the larger capacitor's hole.
 
 Now, from the position we've made for ourselves we can easily replace the 3 capacitors in there and then the larger capacitor we'd already removed. Like those on the mainboard, this is now a very standard operation to carry out.
 
 ### 72 pin connector
 
-One we've replaced these, we may as well take advantage of the ten thousand screws we've gone through and service the 72 pin cartridge connector while we're here. Rather than buy a flashy aftermarket one, the easiest way to maintain these is simply to use a needly to gently lever the pins out where they can bite properly at the cartridge, then use a pad covered in 99% isopropyl alcohol to clean these contacts, and it's as simple as that.
+One we've replaced these, we may as well take advantage of the ten thousand screws we've gone through and service the 72 pin cartridge connector while we're here. Rather than buy a flashy aftermarket one, the easiest way to maintain these is simply to use a needle to gently lever the pins out where they can bite properly at the cartridge, then use a pad covered in 99% isopropyl alcohol to clean these contacts, and it's as simple as that.
 
 
 One that's all done, fire it up and enjoy newfound confidence in an old machine and reward yourself with a game or two!
