@@ -40,7 +40,7 @@ So here's how to go about it:
 
 What we're going to do is free up the 4 tabs as highlighted above, these are welded in with a lot of solder! get your soldering iron hot and be prepared to use up a lot of desoldering braid. Also, even though the points highlighted in blue are keeping the module in place, do NOT desolder them.
 
-Here are the tabs when they've been removed. Honestly there was so much lead in the air it was like being in a Schwarzenegger film.
+Here are the tabs when they've been removed. Honestly there was so much lead flying through the air it was like being in a Schwarzenegger film.
 
 [<img src="{{ site.baseurl }}/images/nes-recap/7.jpg"
             style="width: 800px;"/>]({{ site.baseurl }}/images/nes-recap/7.jpg)  
