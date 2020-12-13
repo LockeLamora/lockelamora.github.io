@@ -49,7 +49,7 @@ The serial highlighted in green is the board number, mine is revision 2 as above
 
 The cap at the bottom right is what I'll focus on to show how I'll be doing this, since unlike my previous recap posts what I'll be doing here is replacing SMD (surface-mounted) caps with through-hole radial caps by just soldering them straight onto the pads.
 
-The black markings on the SMDs show the negative polarity, but if you forget what this was, just align the negative leg of the radial to the flag section of the silkscreen silhouette:
+The black markings on the SMDs show the negative polarity, but if you forget what this was, just align the negative leg of the radial to the flat section of the silkscreen silhouette:
 
 [<img src="{{ site.baseurl }}/images/snes-recap/7.jpg"
 style="width: 800px;"/>]({{ site.baseurl }}/images/snes-recap/7.jpg)
