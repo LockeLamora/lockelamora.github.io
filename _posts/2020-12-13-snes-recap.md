@@ -33,7 +33,7 @@ The last shield seen above has a few little gotchas. First there's a component s
 [<img src="{{ site.baseurl }}/images/snes-recap/4.jpg"
 style="width: 800px;"/>]({{ site.baseurl }}/images/snes-recap/4.jpg)
 
-And now we get a full view of our mainboard. One thing I did notice is that the entir einside of these consoles tend to accumulate an incredible amount of dust! before putting everything back together after this process I ended up brushing and wiping both sides of the PCB, the cartridge contacts and the inside of the case, all the Q-tips (fully bio-degradeable if you please!) and cloths came away black.
+And now we get a full view of our mainboard. One thing I did notice is that the entire inside of these consoles tend to accumulate an incredible amount of dust! before putting everything back together after this process I ended up brushing and wiping both sides of the PCB, the cartridge contacts and the inside of the case, all the Q-tips (fully bio-degradeable if you please!) and cloths came away black.
 
 [<img src="{{ site.baseurl }}/images/snes-recap/5.jpg"
 style="width: 800px;"/>]({{ site.baseurl }}/images/snes-recap/5.jpg)
