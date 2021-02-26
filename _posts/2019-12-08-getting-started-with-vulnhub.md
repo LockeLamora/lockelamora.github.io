@@ -76,4 +76,4 @@ Next we run an nmap scan to give us the IP of every machine of our network, whic
 
 There may be some junk in there, but the entry we're looking for will usually end in **Oracle VirtualBox virtual NIC** and has the IP address that isn't Kali's.
 
-After that, if port 80 is open then open your browser and type in the machine's IP address into your address bar and you're not at the starting point to tackling the machine.
+After that, if port 80 is open then open your browser and type in the machine's IP address into your address bar and you're now at the starting point to tackling the machine.
