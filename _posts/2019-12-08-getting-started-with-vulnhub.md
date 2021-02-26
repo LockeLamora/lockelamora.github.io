@@ -35,7 +35,7 @@ The next thing we'll do is install Kali Linux. Kali is derived from Debian (A fl
 
 All of these are available separately but it's convenient having them all setup already in one place.
 
-Click [HERE](https://www.kali.org/downloads/) to download the Kali image. Once downloaded, Either double click on it to open with VirtualBox or open from within VirtualBox by using file/import appliance.
+Click [HERE](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/) to download the Kali image. Once downloaded, Either double click on it to open with VirtualBox or open from within VirtualBox by using file/import appliance.
 
 Once it has finished importing, click on the Kali entry on the left hand side, click on settings, then the network tab of VirtualBox and assign its network to the NAT Network you set up earlier which should now be present on the dropdown options:
 
