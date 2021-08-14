@@ -86,7 +86,7 @@ Here we are seeing the raw APRS data, this is because the PK232 uses the AX.25 d
 
 This gets a little more complicated. First of all, we need to connect the PK232 to our transceiver so that it can broadcast out the audio it generates and trigger the PTT (push-to-talk). The Yaesu FTM7250 doesn't have a dedicated data or APRS port, so we're going to have to hack the PK232 into the microphone port.
 
-The pinouts for both devices are publicly available (The Yaesu MH-48 plug that the FTM7250 uses is used across several other Yaesu models so is equally valid for those), So we link them up according to the diagram below (which isn't great but better than my handmade notes!)
+The pinouts for both devices are publicly available (The Yaesu MH-48 plug that the FTM7250 uses is used across several other Yaesu models so is equally valid for those), So we link them up according to the diagram below.
 
 [<img src="../images/c64iss/14.jpg"
   style="width: 800px;"/>](../images/c64iss/14.jpg)
