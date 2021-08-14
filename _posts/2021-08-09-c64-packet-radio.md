@@ -154,7 +154,7 @@ alternatives are:
 
 **1234567.89W** Your longitude position (note that is contains more characters than the latitude so you may need to zero-pad the beginning)
 
-**-** this symbol is combined with the / symbl set identifier from earlier to specify /- , which is a house icon. [Information on symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
+**-** this symbol is combined with the / symbol set identifier from earlier to form /- , which translates as a house icon. [Information on symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
 
 **yyyyy** the text headline you want your beacon to have (I will show later what this looks like when ingested)
 
