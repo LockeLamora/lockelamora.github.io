@@ -160,7 +160,7 @@ Let's break down the format of our example here:
 
 >beacon every x
 
-this tells the pakratt to broadcast the beacon every x * 10 seconds (ie beacon every 90 broadcasts every 900 seconds)
+this tells the pakratt to broadcast the beacon every x * 10 seconds (eg "beacon every 90" broadcasts every 900 seconds)
 
 This is enough for beacons. To do statuses or messages we need to switch from command mode to converse mode using the converse command:
 
