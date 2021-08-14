@@ -117,7 +117,7 @@ This means you won't be blocked from transmitting by static noise wrongly interp
 
 As mentioned before, the PK232 sends packets as AX.25, and APRS builds onto this, so we can handcraft our packets to appear as native APRS to whoever receives and ingests them.
 
-These are the relevant examples of PK232 terminal commands for LOCAL (not ISS) broadcast so we can test our transmit ability:
+These are the relevant examples of PK232 terminal commands for LOCAL (not ISS) broadcast so we can test our transmit ability. The required commands are MYCALL, BTEXT, BEACON and UNPROTO:
 
 >mycall xxxxx
 
