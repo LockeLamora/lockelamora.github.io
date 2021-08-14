@@ -260,4 +260,4 @@ We can show this path on the map like we did with our local test:
 
 - Stations who have interacted with ISS is any of the supported modes (SSTV, voice, packet) can have this officially confirmed with a QSL card, basically a postcard showing the time and mode of contact so I definitely need this for the wall!
 
-- I have a Psion 5MX from around 2001 which I'm pretty sure can also communicate with the PK232 over a terminal session, I'm just waiting the proprietary RS232 cable  
+- I have a Psion 5MX from around 2001 which I'm pretty sure can also communicate with the PK232 over a terminal session, onto an LCD screen powered by AA batteries! I'm just awaiting the proprietary RS232 cable  
