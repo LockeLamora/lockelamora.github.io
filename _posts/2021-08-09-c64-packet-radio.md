@@ -219,7 +219,7 @@ Here are the TNC setup changes we need for the ISS:
 
 >Unproto aprs via ariss
 
-"ARISS" is a callsign that the ISS will be looking for, so instead of the local repeaters from before we will be using the space station as our repeater! (it's best not to include wide2-2 here, just to avoid repeater noise on the ground)
+"ARISS" is a callsign that the ISS will be looking for, so instead of the local repeaters from before we will be using the space station as our repeater! (it's best not to include wide2-2 here, just to avoid unnecessary repeater noise on the ground as the signal from the ISS will hit quite a few at once)
 
 >beacon every 6
 
