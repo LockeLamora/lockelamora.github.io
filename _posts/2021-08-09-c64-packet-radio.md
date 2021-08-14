@@ -150,11 +150,11 @@ alternatives are:
 
 **12345.67N** Your position latitude. The C64 obviously doesn't have a GPS so I just found the co-ordinates of the local Home Bargains from google maps so that people can find top brands at bottom prices. Note that the .67 component is in hundredths rather than minutes, so divide by 60 if you need to. you can also use a Maidenhead Grid Square reference to replace the latitude and longitude, and is also good for privacy as it encompasses a large local area.
 
-**/**   The symbols set you want to use
+**/**   The symbols set you want to use [Information on symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
 
 **1234567.89W** Your longitude position (note that is contains more characters than the latitude so you may need to zero-pad the beginning)
 
-**-** this symbol is combined with the / symbl set identifier from earlier to specify /- , which is a house icon. [More symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
+**-** this symbol is combined with the / symbl set identifier from earlier to specify /- , which is a house icon. [Information on symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
 
 **yyyyy** the text headline you want your beacon to have (I will show later what this looks like when ingested)
 
