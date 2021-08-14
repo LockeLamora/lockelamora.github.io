@@ -33,7 +33,7 @@ When we open it up we can see here that the CR2032 backup battery is soldered on
 [<img src="../images/c64iss/3.jpg"
   style="width: 800px;"/>](../images/c64iss/3.jpg)
 
-Usually I've seen these batteries suspended an inch or so above the board, but this one seemed to have its legs trimmed to it was right down against the board, with the soldering pretty hard to reach at the back as it was under the battery:
+Usually I've seen these batteries suspended an inch or so above the board, but this one seemed to have its legs trimmed so that it was right down against the board, with the soldering pretty hard to reach at the back as it was under the battery:
 
 [<img src="../images/c64iss/4.jpg"
   style="width: 800px;"/>](../images/c64iss/4.jpg)
