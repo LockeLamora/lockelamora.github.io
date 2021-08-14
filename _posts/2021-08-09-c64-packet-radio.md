@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Working the International Space Station from a Commodore 64
-tags: radio, retro
+tags: radio retro
 
 ---
 
