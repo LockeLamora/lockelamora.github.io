@@ -156,7 +156,7 @@ Let's break down the format of our example here:
 
 **-** this symbol is combined with the / symbol set identifier from earlier to form /- , which translates as a house icon. [Information on symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
 
-**yyyyy** the text headline you want your beacon to have (I will show later what this looks like when ingested)
+**yyyyy** the text headline you want your beacon to have (I will show later what this looks like when ingested; in later examples YYYYY will me replaced by "Alick's Commodore 64")
 
 >beacon every x
 
