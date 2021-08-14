@@ -195,7 +195,7 @@ Now let's set a beacon (along with a status) and see what happens. For this exam
 [<img src="../images/c64iss/17.jpg"
   style="width: 800px;"/>](../images/c64iss/17.jpg)
 
-We can also see the two hops the broadcast made (As requested by wide2-2) to get to a station that was gatewayed to the internet to update this page. Note also the houses icon symbol we specified.
+We can also see the two hops the broadcast made (As requested by wide2-2) to get to a station that was gatewayed to the internet to update this page. Note also the houses icon symbol we specified. The distance limitation of VHF is evident here to a few miles which is why we need repeaters to take our signal and rebroadcast it. (This is what the ISS will later do it for us which much greater coverage!)
 
 Clicking info shows further details:
 
@@ -238,14 +238,14 @@ and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowle
 [<img src="../images/c64iss/22.jpg"
       style="width: 800px;"/>](../images/c64iss/22.jpg)
 
-In the raw text above (NA1SS is the ISS callsign, the * after it shows it repeated the message) we can see my broadcast in highlighted in green and another station shown in red sending me a message back to say they've received it.          
+In the raw text above (NA1SS is the ISS callsign, the * after it shows it repeated the message) we can see my broadcast in highlighted in green and another station shown in red sending me a message back to say they've received it. The "EA" callsign is Spanish, giving us a demonstration of how useful a repeater a satellite is for increasing our range.          
 
 If we go back to aprs.fi some cool changes have happened, First of all, my "path" to the internet has been updated to include the ISS as a station that has heard me (Click to enlarge):
 
 [<img src="../images/c64iss/23.jpg"
   style="width: 800px;"/>](../images/c64iss/23.jpg)
 
-Look at the distance!
+Look at the distance! This shows that even on VHF, broadcasting from the UK to ISS for it to rebroadcast covers a huge area of Europe, far more than the 15 miles or so we were managing on our local transmit test.
 
 We can show this path on the map like we did with our local test:
 
