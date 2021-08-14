@@ -231,7 +231,7 @@ There is a matter of etiquette here; this is a simplex frequency, meaning that w
 
 this is just a status update for whatever you want to show on aprs.fi when your beacon updates it, but it isn't necessary.
 
-and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowledged by the space station and see a map view:
+and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowledged by the space station and see a map view (In my following I am 2E0HDV):
 
 [<img src="../images/c64iss/20.jpg"
   style="width: 800px;"/>](../images/c64iss/20.jpg)
