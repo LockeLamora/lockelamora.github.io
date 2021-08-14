@@ -59,7 +59,9 @@ Then I bent the pins of the battery holder flat and soldered this as a surface m
 [<img src="../images/c64iss/9.jpg"
     style="width: 800px;"/>](../images/c64iss/9.jpg)
 
-Now on the C64 we set up Novaterm to use the correct port for RS232 and recognise the PK232 as a Modem. I'll post my settings here if anyone needs to refer to them:
+Now on the C64 we set up Novaterm to use the correct port for RS232 and recognise the PK232 as a Modem. The basics are a Hayes-compatible modem, 8 bit no parity 1 stop bit (8N1), Normal Carrier type, baud rate 1200 and a serial driver of user port.
+
+Here are my settings if anyone needs to refer to them.
 
 [<img src="../images/c64iss/10.jpg"
   style="width: 800px;"/>](../images/c64iss/10.jpg)
