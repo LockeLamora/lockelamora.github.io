@@ -213,7 +213,7 @@ First of all, we need to see when the space station will appear near us, what di
 [<img src="../images/c64iss/19.jpg"
   style="width: 200px;"/>](../images/c64iss/19.jpg)
 
-I'm using a roof-mounted dual-band vertical antenna, so while the ISS is overhead I'm deaf to it and can't transmit to it (It would be a massive inefficency if my antenna was beaming my signals upwards into space!) so I generally have success with the ISS at around 15 degrees elevation +/ 13 or so degrees depending on the direction due to local terrain.
+I'm using a roof-mounted dual-band vertical antenna, so while the ISS is overhead I'm deaf to it and can't transmit to it (It would be a massive inefficency if my antenna was beaming my signals upwards into space!) so I generally have success with the ISS at around 15 degrees elevation +/- 13 or so degrees depending on the direction due to local terrain.
 
 Here are the TNC setup changes we need for the ISS:
 
