@@ -223,7 +223,9 @@ Here are the TNC setup changes we need for the ISS:
 
 >beacon every 6
 
-This will set the beacon to 60 seconds (generally your ISS exposure will be 2-10 minutes so a 15 minute beacon frequency might miss it. Use a lower beacon frequency of 20-30 seconds if you're using low power, eg 5-10 watts)
+This will set the beacon to 60 seconds (generally your ISS exposure will be 2-10 minutes so a 15 minute beacon frequency might miss it. Use a lower beacon frequency of 20-30 seconds if you're using low power, eg 5-10 watts).
+
+There is a matter of etiquette here; this is a simplex frequency, meaning that while the ISS is handling your request it's locked and can't do anyone else's so the more reliable your transmissions are the less frequent your beacon should be to give other people a chance. My antenna isn't designed for satellites but even so if my beacon is recognised I turn off further beaconing (the "beacon every 0" command will do this).
 
 \>Hello via ISS
 
