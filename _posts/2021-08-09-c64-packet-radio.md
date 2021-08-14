@@ -98,7 +98,7 @@ I also made a 3rd cable where it branched off from the IDC into a seperate home-
 [<img src="../images/c64iss/15.jpg"
   style="width: 800px;"/>](../images/c64iss/15.jpg)
 
-To connect the IDC I used an IDC punchdown tool (Some "helpfully" come with automatic snips attached but I removed these so it'd fit into the connector) and to connect the RJ12 I just used an RJ12 crimper. It makes life very easy to have a continuity tester on hand as well to test the plugs are properly connected throughout the cable to their respective partner pins.
+To connect the IDC I used an IDC punchdown tool (Some "helpfully" come with automatic snips attached but I removed these so it'd fit into the connector) and to connect the RJ12 I just used an RJ12 crimper. It makes life very easy to have a continuity tester on hand as well to test the plugs are properly connected throughout the cable to their respective partner pins, Otherwise if something doesn't work you're working blind as to why; with all the cables I made for this project (including spares) there was usually at least one that hadn't punched down into the IDC properly.
 
 [<img src="../images/c64iss/16.jpg"
   style="width: 800px;"/>](../images/c64iss/16.jpg)
