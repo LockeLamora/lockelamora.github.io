@@ -111,7 +111,7 @@ Firstly, listen to the transceiver sounds (unplug the PK232 from the audio out p
 
 When the DCD LED is lit, the Pakratt thinks there is a data packet incoming. If your transceiver is showing no incoming signal but the DCD is lit, then the threshold is too high. Slowly turn the dial to the left until this light just disappears. Now when a true signal is received it will light up to show it is recognised correctly.
 
-This means you won't be blocked from transmitting by static noise wrongly interpreted as an incoming data carrier.
+This means you won't be blocked from transmitting by static noise wrongly interpreted as an incoming data carrier (threshold too high), nor will you be missing data packets coming in and therefore transmit out uselessly when the ISS is already busy dealing with someone else (threshold too low).
 
 #### A note about data formats and relevant commands before we transmit
 
