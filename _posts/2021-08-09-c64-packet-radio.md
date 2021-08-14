@@ -99,6 +99,16 @@ To connect the IDC I used an IDC punchdown tool (Some "helpfully" come with auto
 [<img src="../images/c64iss/16.jpg"
   style="width: 800px;"/>](../images/c64iss/16.jpg)
 
+#### A note regarding the DCD (Data carrier detect) setting on the Pakratt
+
+Your TNC won't broadcast if it is currently receiving a packet, so we want to fine tune this a little bit so the TNC knows when it is receiving an actual packet and when it's just noise.
+
+Firstly, listen to the transceiver sounds (unplug the PK232 from the audio out port). When you hear data coming through turn the transceiver volume up or down so the cool light display just fills end-to-end. Now reconnect the audio cable.
+
+When the DCD LED is lit, the Pakratt thinks there is a data packet incoming. If your transceiver is showing no incoming signal but the DCD is lit, then the threshold is too high. Slowly turn the dial to the left until this light just disappears. Now when a true signal is received it will light up to show it is recognised correctly.
+
+This means you won't be blocked from transmitting by static noise wrongly interpreted as an incoming data carrier.
+
 #### A note about data formats and relevant commands before we transmit
 
 As mentioned before, the PK232 sends packets as AX.25, and APRS builds onto this, so we can handcraft our packets to appear as native APRS to whoever receives and ingests them.
@@ -134,13 +144,13 @@ alternatives are:
 
 ! digipeaters
 
-**12345.67N** Your position latitude. The C64 obviously doesn't have a GPS so I just found the co-ordinates of the local home bargains from google maps(so people can find top brands at bottom prices). Note that the .67 component is in hundredths rather than minutes, so divide by 60 if you need to. you can also use a gridsquare reference to replace the lat and long.
+**12345.67N** Your position latitude. The C64 obviously doesn't have a GPS so I just found the co-ordinates of the local Home Bargains from google maps so that people can find top brands at bottom prices. Note that the .67 component is in hundredths rather than minutes, so divide by 60 if you need to. you can also use a Maidenhead Grid Square reference to replace the latitude and longitude, and is also good for privacy as it encompasses a large local area.
 
-**/**   The symbols set you want to used
+**/**   The symbols set you want to use
 
-**1234567.89W** Your longitude position
+**1234567.89W** Your longitude position (note that is contains more characters than the latitude so you may need to zero-pad the beginning)
 
-**-** this symbol matched with the / from earlier shows as a house icon. [More symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
+**-** this symbol is combined with the / symbl set identifier from earlier to specify /- , which is a house icon. [More symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
 
 **yyyyy** the text headline you want your beacon to have (I will show later what this looks like when ingested)
 
@@ -148,11 +158,15 @@ alternatives are:
 
 this tells the pakratt to broadcast the beacon every x * 10 seconds (ie beacon every 90 broadcasts every 900 seconds)
 
-This is enough for beacons. You can also send a status update like this:
+This is enough for beacons. To do statuses or messages we need to switch from command mode to converse mode using the converse command:
+
+>conv
+
+You can now send a status update like this:
 
 \>xxxx
 
-where xxxx is your status, again I'll show later how this looks. The > prefix is required for some transceivers to ingest so it's usually best to include it.
+where xxxx is your status, again I'll show later how this looks. The > prefix is required for some transceivers to parse correctly so it's usually best to include it.
 
 to send a message follow this format:
 
@@ -160,14 +174,28 @@ to send a message follow this format:
 
 begin with a : then the callsign of the person you're messaging, pad this callsign field out to 9 characters with spaces, then another : to end the "to" field and type your message (ie your message will begin at the 12th character). The callsign XXXX must be in capital letters.
 
-Now let's set a beacon (Along with a status) and see what happens. For this example, my beacon test is "Alick's Commodore 64" and my status text is a list of my equipment. The site is [aprs.fi](https://aprs.fi)
+#### optional commands
+
+(These are done in command mode)
+
+>daytime yymmddhhmmss
+
+set the datetime for your TNC (optional) this will allow you to see timestamps of when messages were received (the seconds part may be ommitted)
+
+>mheard
+
+This will show stations your TNC has heard.
+
+
+
+Now let's set a beacon (along with a status) and see what happens. For this example, my beacon test is "Alick's Commodore 64" and my status text is a list of my equipment. The site that will ingest it from an internet gateway is [aprs.fi](https://aprs.fi)
 
 [<img src="../images/c64iss/17.jpg"
   style="width: 800px;"/>](../images/c64iss/17.jpg)
 
 We can also see the two hops the broadcast made (As requested by wide2-2) to get to a station that was gatewayed to the internet to update this page. Note also the houses icon symbol we specified.
 
-Clicking info shows a bit more info:
+Clicking info shows further details:
 
 [<img src="../images/c64iss/18.jpg"
   style="width: 800px;"/>](../images/c64iss/18.jpg)
@@ -224,7 +252,7 @@ We can show this path on the map like we did with our local test:
 
 ## Next Steps
 
-- To give me horizon-to-horizon coverage my next step is to build an antenna more suited to satellite use, my current solution is a Quadrifilar helicoidal (QFH) antenna.
+- To give me horizon-to-horizon coverage and remove the deadzone directly above the house my next step is to build an antenna more suited to satellite use, my current solution is a Quadrifilar helicoidal (QFH) antenna intricately woven from big copper pipes.
 
 - Stations who have interacted with ISS is any of the supported modes (SSTV, voice, packet) can have this officially confirmed with a QSL card, basically a postcard showing the time and mode of contact so I definitely need this for the wall!
 
