@@ -140,13 +140,13 @@ Let's break down the format of our example here:
 
 **=** Tells the recepient that we are a message-capable fixed station.
 
-alternatives are:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alternatives are:
 
-/ message incapable fixed Station
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ message incapable fixed Station
 
-@ mobile, message capable
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@ mobile, message capable
 
-! digipeaters
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;! digipeaters
 
 **12345.67N** Your position latitude. The C64 obviously doesn't have a GPS so I just found the co-ordinates of the local Home Bargains from google maps so that people can find top brands at bottom prices. Note that the .67 component is in hundredths rather than minutes, so divide by 60 if you need to. you can also use a Maidenhead Grid Square reference to replace the latitude and longitude, and is also good for privacy as it encompasses a large local area.
 
