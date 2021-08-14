@@ -93,7 +93,7 @@ The pinouts for both devices are publicly available (The Yaesu MH-48 plug that t
 
 The Yaesu requires an RJ12 plug (NOT RJ11, which only has 4 pins) and the PK232 requires a 5-pin female IDC (Other people have used dupont connectors for this but I was able to easily find IDCs on ebay). The cables that I used are 26AWG shielded (2 cores, or 3 cores if there isn't a dedicated ground wire), I believe 24AWG would be fine too. I tried two versions, one where I had to use one of the core cables as ground and link one side to the shielding (As in the diagram) and another where the cable had an uninsulated ground lead inside (This one was a guitar pickup cable) and both worked fine.
 
-I also made a 3rd cable where it branched off from the IDC into a seperate home-made 3.5mm mono plug (both cable shields soldered together) which also worked, but you have to increase the transceiver volume a bit. The simplest way of a separate receiving audio cable such as we used for our receive test is actually the best way.
+I also made a 3rd cable where it branched off from the IDC into a seperate home-made 3.5mm mono plug for the received audio out of the transceiver (with both cable shields soldered together) which also worked, but you have to increase the transceiver volume a bit. The simplest way of a separate receiving audio cable such as we used for our receive test is actually the best way.
 
 [<img src="../images/c64iss/15.jpg"
   style="width: 800px;"/>](../images/c64iss/15.jpg)
