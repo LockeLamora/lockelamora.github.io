@@ -203,7 +203,7 @@ Now let's set a beacon (along with a status) and see what happens. For this exam
 [<img src="../images/c64iss/17.jpg"
   style="width: 800px;"/>](../images/c64iss/17.jpg)
 
-We can also see the two hops the broadcast made (As requested by wide2-2) to get to a station that was gatewayed to the internet to update this page. Note also the houses icon symbol we specified. The distance limitation of VHF is evident here to a few miles which is why we need repeaters to take our signal and rebroadcast it. (This is what the ISS will later do it for us which much greater coverage!)
+We can also see the two hops the broadcast made (As requested by wide2-2) to get to a station that was gatewayed to the internet to update this page. Note also the houses icon symbol we specified. The distance limitation of VHF is evident here to a few miles which is why we need repeaters to take our signal and rebroadcast it. (This is what the ISS will later do it for us for much greater coverage!)
 
 Clicking info shows further details:
 
