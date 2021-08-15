@@ -262,6 +262,6 @@ We can show this path on the map like we did with our local test:
 
 - To give me horizon-to-horizon coverage and remove the deadzone directly above the house my next step is to build an antenna more suited to satellite use, my current solution is a Quadrifilar helicoidal (QFH) antenna intricately woven from big copper pipes.
 
-- Stations who have interacted with ISS is any of the supported modes (SSTV, voice, packet) can have this officially confirmed with a QSL card, basically a postcard showing the time and mode of contact so I definitely need this for the wall!
+- Stations who have interacted with ISS using any of the supported modes (SSTV - which sends pictures of radio, voice, packet) can have this officially confirmed with a QSL card, basically a postcard showing the time and mode of contact so I definitely need this for the wall!
 
 - I have a Psion 5MX from around 2001 which I'm pretty sure can also communicate with the PK232 over a terminal session, onto an LCD screen powered by AA batteries! I'm just awaiting the proprietary RS232 cable  
