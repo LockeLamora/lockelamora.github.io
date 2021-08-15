@@ -10,7 +10,7 @@ tags: radio retro
 [<img src="../images/c64iss/00.jpg"
   style="width: 800px;"/>](../images/c64iss/00.jpg)
 
-After getting my Amateur radio licence I was wondering what to do next and noticed that my Commodore 64 was sitting right next to my Transceiver and remembered when researching my BBS [See previous blog post]({% link _posts/2020-12-04-bbs.md %}) that there were packrat radio BBSs. Packet radio to a BBS probably isn't practical since I'd be the only person in the local area using it, but packet radio (Sending/receiving data packets via radio instead of through the internet) was an interesting idea, and the fact that the International Space station has a repeater for packet radio seemed like a good final objective.
+After getting my Amateur radio licence I was wondering what to do next and noticed that my Commodore 64 was sitting right next to my Transceiver and remembered when researching my BBS [See previous blog post]({% link _posts/2020-12-04-bbs.md %}) that there were packet radio BBSs. Packet radio to a BBS probably isn't practical since I'd be the only person in the local area using it, but packet radio (Sending/receiving data packets via radio instead of through the internet) was an interesting idea, and the fact that the International Space station has a repeater for packet radio seemed like a good final objective.
 
 At the time, computers such as a C64 would make use of a TNC (Terminal Node Controller) to be the brains of the operation and then as a modem. AEA released a PK-64 specifically for the C64, but they're pretty rare and its big brother the PK232 seems more advanced and had a lot of upgrades since first release so I picked one of those up for £20.
 
