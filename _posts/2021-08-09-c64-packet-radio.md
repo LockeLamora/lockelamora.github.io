@@ -237,7 +237,7 @@ This will set the beacon to 60 seconds (generally your ISS exposure will be 2-10
 
 this is just a status update for whatever you want to show on aprs.fi when your beacon updates it, but it isn't necessary, and in fact it's probably best to leave it out so you're trying to send less data to the ISS.
 
-and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowledged by the space station and see a cool map view (in these screenshots my callsign is 2E0HDV):
+and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowledged by the space station and see a cool map view, I really love the line-art of the map! so fortunate that it was used because google priced them out of using maps. (in these screenshots my callsign is 2E0HDV):
 
 [<img src="../images/c64iss/20.jpg"
   style="width: 800px;"/>](../images/c64iss/20.jpg)
