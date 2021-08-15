@@ -154,6 +154,8 @@ Let's break down the format of our example here:
 
 **1234567.89W** Your longitude position (note that is contains more characters than the latitude so you may need to zero-pad the beginning)
 
+**note that when you see other people's locators they may look like gibberish, this is because they are being encoded for efficiency by modern transceivers**
+
 **-** this symbol is combined with the / symbol set identifier from earlier to form /- , which translates as a house icon. [Information on symbols can be found here](http://www.aprs.net/vm/DOS/SYMBOLS.HTM)
 
 **yyyyy** the text headline you want your beacon to have (I will show later what this looks like when ingested; in later examples YYYYY will me replaced by "Alick's Commodore 64")
@@ -242,7 +244,7 @@ and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowle
 [<img src="../images/c64iss/22.jpg"
       style="width: 800px;"/>](../images/c64iss/22.jpg)
 
-In the raw text above (NA1SS is the ISS callsign, the * after it shows it repeated the message) we can see my broadcast highlighted in green and another station shown in red sending me a message back to say they've received it. The "EA" callsign above these is Spanish, giving us a demonstration of how useful a repeater a satellite is for increasing our range with a simple VHF antenna.          
+In the raw text above (NA1SS is the ISS callsign, the * after it shows it repeated the message) we can see my broadcast highlighted in green and another station shown in red sending me a message back to say they've received it. The "EA" callsign above these is Spanish, giving us a demonstration of how useful a repeater a satellite is for increasing our range with a simple VHF antenna. Notice also that (as mentioned earlier) the EA callsign locator has that gibberish look meaning it was encoded, the packet is actually fine but the locator portion isn't human-readable, the makes it more efficient by sending less data.          
 
 If we go back to aprs.fi some cool changes have happened, First of all, my "path" to the internet has been updated to include the ISS as a station that has heard me (Click to enlarge):
 
