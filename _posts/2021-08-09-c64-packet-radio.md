@@ -12,9 +12,9 @@ tags: radio retro
 
 After getting my Amateur radio licence I was wondering what to do next and noticed that my Commodore 64 was sitting right next to my Transceiver and remembered when researching my BBS [See previous blog post]({% link _posts/2020-12-04-bbs.md %}) that there were packet radio BBSs. Packet radio to a BBS probably isn't practical since I'd be the only person in the local area using it, but packet radio (Sending/receiving data packets via radio instead of through the internet) was an interesting idea, and the fact that the International Space station has a repeater for packet radio seemed like a good final objective.
 
-This is the theory: with VHF the higher the better. It usually only lasts a few miles and hills, buildings etc block the signal. But a repeater can rebroadcast your message if it hears it, thus extending the range.
+This is the theory: with VHF the higher the better. It lasts at most a few miles before hills, buildings etc block the signal. But a repeater can rebroadcast your message if it hears it, thus extending the range.
 
-Imagine a repeater on a mountain! it can receive and rebroadcast so much! Now go furthermore and imagine a repeater so high up that it's in space, why then even the humble VHF can reach insane distances!
+Imagine a repeater on a mountain, it can receive and rebroadcast so much, and its height works to an advantage because your neighbour's roof or some local hill won't get in the way because youre aiming over it. Now go further and imagine a repeater so high up that it's in space, why then even the humble VHF can reach insane distances!
 
 At the time, computers such as a C64 would make use of a TNC (Terminal Node Controller) to be the brains of the operation and then as a modem. AEA released a PK-64 specifically for the C64, but they're pretty rare and its big brother the PK232 seems more advanced and had a lot of upgrades since first release so I picked one of those up for £20.
 
