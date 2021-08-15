@@ -14,7 +14,7 @@ After getting my Amateur radio licence I was wondering what to do next and notic
 
 This is the theory: with VHF the higher the better. It usually only lasts a few miles and hills, buildings etc block the signal. But a repeater can rebroadcast your message if it hears it, thus extending the range.
 
-Imagine a repeater on a mountain! it can receive and rebroadcast so much! Now go further imagine a repeater so high up that it's in space, even the humble VHF can reach insane distances!
+Imagine a repeater on a mountain! it can receive and rebroadcast so much! Now go furthermore and imagine a repeater so high up that it's in space, why then even the humble VHF can reach insane distances!
 
 At the time, computers such as a C64 would make use of a TNC (Terminal Node Controller) to be the brains of the operation and then as a modem. AEA released a PK-64 specifically for the C64, but they're pretty rare and its big brother the PK232 seems more advanced and had a lot of upgrades since first release so I picked one of those up for £20.
 
