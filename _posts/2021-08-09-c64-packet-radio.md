@@ -107,7 +107,7 @@ To connect the IDC I used an IDC punchdown tool (Some "helpfully" come with auto
 
 Your TNC won't broadcast if it is currently receiving a packet, so we want to fine tune this a little bit so the TNC knows when it is receiving an actual packet and when it's just noise.
 
-Firstly, listen to the transceiver sounds (unplug the PK232 from the audio out port). When you hear data coming through turn the transceiver volume up or down so the cool light display just fills end-to-end. Now reconnect the audio cable.
+Firstly, observe the signal bar on the transceiver. When you see data coming through turn the transceiver volume up or down so the cool Knight Rider "Tune" light display just fills the display end-to-end.
 
 When the DCD LED is lit, the Pakratt thinks there is a data packet incoming. If your transceiver is showing no incoming signal but the DCD is lit, then the threshold is too high. Slowly turn the dial to the left until this light just disappears. Now when a true signal is received it will light up to show it is recognised correctly.
 
