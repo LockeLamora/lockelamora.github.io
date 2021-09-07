@@ -248,7 +248,7 @@ and now you can monitor [ariss.net](https://ariss.net) to view contacts acknowle
 [<img src="../images/c64iss/22.jpg"
       style="width: 800px;"/>](../images/c64iss/22.jpg)
 
-In the raw text above (NA1SS is the ISS callsign, the * after it shows it repeated the message) we can see my broadcast highlighted in green and another station shown in red sending me a message back to say they've received it. The "EA" callsign above these is Spanish, giving us a demonstration of how useful a repeater a satellite is for increasing our range with a simple VHF antenna. Notice also that (as mentioned earlier) the EA callsign locator has that gibberish look meaning it was encoded by modern software, the packet is actually fine but the locator portion isn't human-readable, the makes it more efficient by sending less data.          
+In the raw text above (NA1SS is the ISS callsign, the * after it shows it repeated the message) we can see my broadcast highlighted in green and another station shown in red sending me a message back to say they've received it. The "EA" callsign above these is Spanish, giving us a demonstration of how useful a repeater a satellite is for increasing our range with a simple VHF antenna. Notice also that (as mentioned earlier) the EA callsign locator has that gibberish look meaning it was encoded by modern software, the packet is actually fine but the locator portion isn't human-readable, this encoding makes it more efficient by sending less data.          
 
 If we go back to aprs.fi some cool changes have happened, First of all, my "path" to the internet has been updated to include the ISS as a station that has heard me (Click to enlarge):
 
