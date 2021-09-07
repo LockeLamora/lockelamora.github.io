@@ -20,6 +20,15 @@ At the time, computers such as a C64 would make use of a TNC (Terminal Node Cont
 
 Note that this writeup won't assume a lot of prior knowledge. As a lot of this hardware is 30-40 years old it can be tough scraping together relevant bits of information from many disparate sources among the dead links or discovering it yourself so I'm going to go into a lot of detail here for the next person.
 
+### disclaimers
+
+I just want to go against the normal sensationalism and not be so clickbaity:
+
+- The C64 here isn't directly communicating with space, it's a dumb terminal (which is its strength here, the same way I can connect it to a BBS over modern wifi!) otherwise we are making use of the versatility of a commodore 64 with technology that existed at the time to contact a space station that didn't exist at the time through a radio that also didn't exist at the time, by doing research into how it works, what I need and hacking bits to talk to other bits because THAT'S the fun scientific part!
+
+
+Also worthy of note: a lot of astronauts have been enthusiastic hams! these are people very dedicated to science after all.. [here,](https://www.ariss.org/uploads/1/1/1/6/111680627/2021-04-16_hams_in_space.pdf) for example is a list of astronauts who are official hams. Astronauts regularly talk to schools over ham radio and a notable crowd have done it for fun.
+
 ### Setting up the C64 and Pakratt
 
 First of all, the Pk232 needs to connect to the C64 via an RS232 serial cable. There are adapters for the C64 user port to support this. Thing is I also needed the power supply provided by the user port for the sd2iec to read my terminal program (Novaterm9.6c) but fortunately I had already a userport-saver, which divides the userport into a normal port and a separate 5v power supply so both the sd2iec and PK232 can be used at once (I had previously used this for a terminal program and a wifi card)
@@ -262,10 +271,39 @@ We can show this path on the map like we did with our local test:
 [<img src="../images/c64iss/24.jpg"
   style="width: 300px;"/>](../images/c64iss/24.jpg)  
 
+Here is a QSL I received to commemorate one of my contacts via the ISS!
+
+[<img src="../images/c64iss/25.jpg"
+  style="width: 600px;"/>](../images/c64iss/25.jpg)  
+
+[<img src="../images/c64iss/26.jpg"
+    style="width: 600px;"/>](../images/c64iss/26.jpg)      
+
+This is definitely going to be framed on the wall!
+
+## Psion 5MX
+
+I am a massive fan of the Psion 5 and 5MX; it's just amazing in so many ways! so here is the same pk232 pakratt connected to a Psion 5MX; a whopping increase to 16mb RAM whilst going down to a small portable device with an LCD screen allowing it to be run off 2 AA batteries!
+
+Here we use a Serial NULL modem cable, following by a male-male DB9 adaptor then the Psion propietary serial cable:
+
+[<img src="../images/c64iss/27.jpg"
+    style="width: 600px;"/>](../images/c64iss/27.jpg)  
+
+[<img src="../images/c64iss/28.jpg"
+        style="width: 600px;"/>](../images/c64iss/28.jpg)  
+
+With the backlight on for visibility, this is using the default comms program in the 5MX! (Be sure to go into the system settings and turn off the infrared port or you'll just get 'Access Denied' when you try to do anything with the serial port)
+
+[<img src="../images/c64iss/29.jpg"
+            style="width: 600px;"/>](../images/c64iss/29.jpg)                  
+
 ## Next Steps
 
 - To give me horizon-to-horizon coverage and remove the deadzone directly above the house my next step is to build an antenna more suited to satellite use, my current solution is a Quadrifilar helicoidal (QFH) antenna intricately woven from big copper pipes.
 
-- Stations who have interacted with ISS using any of the supported modes (SSTV - which sends pictures via radio, voice - self explanatory, packet - which we've covered) can have this officially confirmed with a QSL card, basically a postcard showing the time and mode of contact with a picture of the ISS, so I definitely need this for the wall!
 
-- I have a Psion 5MX from around 2001 which I'm pretty sure can also communicate with the PK232 over a terminal session, onto an LCD screen powered by AA batteries! I'm just awaiting the proprietary RS232 cable  
+Here is a sneak preview of the partially-finished antenna:
+
+[<img src="../images/c64iss/30.jpg"
+            style="width: 300px;"/>](../images/c64iss/30.jpg)  
