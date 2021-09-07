@@ -79,7 +79,7 @@ And now both are talking to each other (After we send '*' for the TNC to configu
 
 ### Receiving packets
 
-The receive test is very easy. The audio out from the FTM7250 transceiver and the RX-IN on the back of the PK232 can be connected using a 3.5mm mono audio cable. Tune to your local APRS frequency (Consult your band plan, in the UK this is 144.800MHz) then we switch to packet mode by typing "packet" and the the local APRS broadcasts are decoded (The frequency demonstrated here is 145.825MHz; the one the ISS uses but you have to time it right to receive):
+The receive test is very easy. The audio out from the FTM7250 transceiver and the RX-IN on the back of the PK232 can be connected using a 3.5mm mono audio cable. Tune to your local APRS frequency (Consult your band plan, in the UK this is 144.800MHz) then we switch to packet mode by typing "packet" and then the local APRS broadcasts are decoded (The frequency demonstrated here is 145.825MHz; the one the ISS uses but you have to time it right to receive):
 
 [<img src="../images/c64iss/13.jpg"
   style="width: 800px;"/>](../images/c64iss/13.jpg)
