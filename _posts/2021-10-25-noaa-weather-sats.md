@@ -76,6 +76,8 @@ These are the first few images I've had so far, it's almost November so the days
 
 I'll keep trying and see if I can get a pass that's both during and day and relatively uncloudy, but my collection of amazing cloud photography is looking promising!
 
+There are after-effects you can apply such as fake colourisation, but that's pretty ropey in my opinion, and a lot of effort to add obvious fakeness to a genuine image you've just grabbed off a satellite so I prefer mine in the native black and white.
+
 I think this first is my favourite so far (Click to enlarge then you can zoom in)
 
 [<img src="../images/noaa-weather-sats/3.png"
@@ -91,3 +93,7 @@ What's really useful also is the ability to overlay maps:
 
 [<img src="../images/noaa-weather-sats/7.png"
             style="width: 800px;"/>](../images/noaa-weather-sats/7.png)
+
+### Next steps
+
+I want to try and get an image off the Meteor M2 satellite which uses a more modern method of sending down the images, once I figure out a way of decoding them on OSX I'll add a new post around it.             
