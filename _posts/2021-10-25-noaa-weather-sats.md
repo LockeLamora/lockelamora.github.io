@@ -20,7 +20,7 @@ In this post I'll detail the steps the work a NOAA satellite on a macbook OSX Bi
 
 ### Software I used
 
-  * GQRX as my SDR (I also tried out CubicSDR which works just as well, but if you want to use Bias Tee on your RTL-SDR, GQRX seems to do this natively rather than having to download seperate software to activate it on the RTL-SDR dongle, also GQRX seems to just allow for more minor tweaking). [Available through macports or homebrew](https://gqrx.dk/download)
+  * GQRX as my SDR (I also tried out CubicSDR which works just as well, but if you want to use Bias Tee on your RTL-SDR for powering an LNA, GQRX seems to do this natively rather than having to download seperate software to activate it on the RTL-SDR dongle, also GQRX seems to just allow for more minor tweaking). [Available through macports or homebrew](https://gqrx.dk/download)
   * NOAA-APT to decode the wav audio files into an image. Most guides talk about wxtoimg but that option seems dead in the water with OSX now not allowing old 32 bit applications. [I used the OSX compilation option here](https://noaa-apt.mbernardi.com.ar/development.html#compilation)
 
 
