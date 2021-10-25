@@ -76,6 +76,8 @@ These are the first few images I've had so far, it's almost November so the days
 
 I'll keep trying and see if I can get a pass that's both during and day and relatively uncloudy, but my collection of amazing cloud photography is looking promising!
 
+I think this first is my favourite so far (Click to enlarge then you can zoom in)
+
 [<img src="../images/noaa-weather-sats/3.png"
     style="width: 800px;"/>](../images/noaa-weather-sats/3.png)   
 
