@@ -83,6 +83,9 @@ I think this first is my favourite so far (Click to enlarge then you can zoom in
 [<img src="../images/noaa-weather-sats/3.png"
     style="width: 800px;"/>](../images/noaa-weather-sats/3.png)   
 
+[<img src="../images/noaa-weather-sats/4.png"
+    style="width: 800px;"/>](../images/noaa-weather-sats/4.png)  
+
 [<img src="../images/noaa-weather-sats/5.png"
             style="width: 800px;"/>](../images/noaa-weather-sats/5.png)    
 
