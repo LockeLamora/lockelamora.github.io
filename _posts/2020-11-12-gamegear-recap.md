@@ -16,7 +16,7 @@ The difference in this process is that the Game Gear uses SMD capacitors whereas
 ### Another Practice Board
 I found a cheap practice board online by MYAMIA which has a load of different surface components to play with, including a nice small IC... and it doesn't skip out on the challenge by giving you big components either!
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/1.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/1tn.jpg"
    style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/1.jpg)
 
 Look at the size of that. Let me tell you that it was an involved process when one flipped onto its back and I had to try to flip it back over with tweezers.. And if you could've seen the look on my face when I went to pick another up and tiddly-winked it onto the carpet. One heavy sigh and an adventurous expedition recovered it!
@@ -25,7 +25,7 @@ Well Let's get into it, my preferred method was to apply solder to one pad, use 
 
 After an hour or so I'm now an expert at holding a soldering iron in one hand, tweezers in the other and squinting at them both through a loupe, but it all worked out ok:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/2.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/2tn.jpg"
    style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/2.jpg)
 
 
@@ -37,55 +37,55 @@ All of the capacitors on the main board and audio board had leaked, corroded the
 
 Here is a layout of both sides of the console:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/3.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/3tn.jpg"
    style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/3.jpg)   
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/9.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/9tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/9.jpg)
 
 In the images above I have highlighted the capacitors to replace in pink, with the green squares showing the areas which give clues as to the version of the board you have and therefore which capacitors you'll have to replace.
 
 Let's start on the power board first, it was the least affected by leakages and uses through-the-hole capacitors:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/4.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/4tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/4.jpg)
 
 Removing and replacing these was a simple task:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/5.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/5tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/5.jpg)
 
 
 Now moving to the Audio board. This was badly affected, even the screw securing it to the case was crusty with electrolytic blood. The SMD caps they use here have an awful plastic collar, which would be fine if any of the original solder was remaining but there was nothing there:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/6.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/6tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/6.jpg)           
 
 I used hot tweezers to go underneath, but about 80% of the work was melting away plastic to get to the legs:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/7.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/7tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/7.jpg)       
 
 But finally it was done and replaced with SMD alternatives, after giving the board a thorough going-over with some 99% isopropyl alcohol to try and recover as much as I could of the pads to seat the new capacitors over:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/8.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/8tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/8.jpg)      
 
 The mainboard itself then was equally as bad as the audio board. The Capacitors (Which are also glued to the mainboard) had been busily trying to destroy themselves and their neighbours, so once again removing the old caps tended away from elegance to just lifting their solderless feet from the pads and cleaning all the waste that was left over, then replacing with nice new SMDs. I'll post the before image again for comparison:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/9.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/9tn.jpg"
       style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/9.jpg)
 
 And now after a makeover to give it cute SMDs:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/10.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/10tn.jpg"
             style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/10.jpg)
 
 ### A happy ending         
 
 After putting all the bits back together and loading it up with a beastly 6 AA batteries, I tried the power button and the thing came back to life! from the very brink of self destruction:
 
-[<img src="{{ site.baseurl }}/images/gamegearrecap/11.jpg"
+[<img src="{{ site.baseurl }}/images/gamegearrecap/11tn.jpg"
             style="width: 800px;"/>]({{ site.baseurl }}/images/gamegearrecap/11.jpg)
 
 After trying it out for a bit the only additional work that was needed was that I noticed the buttons weren't very responsive. Opening it back up and cleaning the traces with isopropyl fixed the '1' button which was barely working, but for the D-Pad I needed a full new set of conductive rubbers.
