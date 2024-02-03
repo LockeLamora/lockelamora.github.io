@@ -20,7 +20,7 @@ The tumble dryer was working fine until a sudden chaos which sounded like some k
 [<img src="../images/classixx7/00003_tn.jpg"
           style="width: 400px;"/>](../images/classixx7/00003.jpg)
 
-Because the error beeps indicate a control board issue or possible loose wires, I'm working on the theory that the railing was the belt flailing around inside and knocking off wire terminals.
+Because the error beeps indicate a control board issue or possible loose wires, I'm working on the theory that the loud rattling was the belt flailing around inside and knocking off wire connectors.
 
 The replacement belt only cost £11 (Model 9000431719) so there's nothing to lose by trying to fix the dryer before resorting to replacing it.
 
