@@ -8,7 +8,7 @@ tags: software
 ## A text-based lightweight weather website for modern feature phones
 
 
-My main phone is a Nokia 2660 which does most of what I need. I use 68k.news for text-based news, the only things really missing are weather and very occasionally I miss maps.
+My main phone is a Nokia 2660 which does most of what I need. I use 68k.news for text-based news, the only things really missing are weather and very occasionally I miss maps. (My Nokia 8000 provides these features, but suffers the slight downside of being the worst phone I've ever had to suffer so it sits forgotten in a drawer)
 
 I decided to create a text-based weather site for the device so that I can check conditions without having to just risk it. It is designed to use minimal button presses or user input, load quickly and fit on a 240x320 resolution screen.
 
